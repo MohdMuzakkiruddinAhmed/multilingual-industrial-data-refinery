@@ -6,7 +6,7 @@
 
 **Turn multilingual motor-catalog sources into evidence-linked records and market-specific views.**
 
-[![Offline tests](https://github.com/MohdMuzakkiruddinAhmed/multilingual-industrial-data-refinery/actions/workflows/tests.yml/badge.svg)](https://github.com/MohdMuzakkiruddinAhmed/multilingual-industrial-data-refinery/actions/workflows/tests.yml)
+[![Offline tests](https://github.com/MohdMuzakkiruddinAhmed/multilingual-industrial-data-refinery/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/MohdMuzakkiruddinAhmed/multilingual-industrial-data-refinery/actions/workflows/tests.yml)
 ![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
 ![Research prototype](https://img.shields.io/badge/Status-research_prototype-0E7490)
 ![Synthetic data](https://img.shields.io/badge/Data-synthetic-475569)

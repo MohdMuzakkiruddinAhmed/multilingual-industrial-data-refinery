@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 007; referencia: FM007-A; familia: FM007; tensión: 110 V; frecuencia: 50 Hz; potencia: 375 W

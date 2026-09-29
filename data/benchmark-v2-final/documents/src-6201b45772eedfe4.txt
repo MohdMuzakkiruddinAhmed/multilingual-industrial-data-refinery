@@ -1,0 +1,6 @@
+  Artikelnummer = FM015-A  
+  Nennspannung = 400 V  
+  Baureihe = FM015  
+  Hersteller = Synthetic Motors 015  
+  Nennleistung = 7500 W  
+  Nennfrequenz = 60 Hz  

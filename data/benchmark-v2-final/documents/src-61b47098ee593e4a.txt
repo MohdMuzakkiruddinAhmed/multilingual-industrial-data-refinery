@@ -1,0 +1,1 @@
+manufacturer: Other Demo 7; part number: FM007-X; family: OTHER7; voltage: 110 V; frequency: 50 Hz; power: 375 W

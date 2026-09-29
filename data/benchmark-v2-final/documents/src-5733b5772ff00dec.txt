@@ -1,0 +1,1 @@
+fabricante: Other Demo 10; referencia: FM010-X; familia: OTHER10; tensión: 208 V; frecuencia: 60 Hz; potencia: 2200 W

@@ -1,0 +1,6 @@
+  Manufacturer = Synthetic Motors 020  
+  Rated voltage = 208 V  
+  Series = FM020  
+  Rated frequency = 60 Hz  
+  MPN = FM020-A  
+  Rated power = 7500 W  

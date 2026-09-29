@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 006; referencia: FM006-A; familia: FM006; tensión: 208 V; frecuencia: 60 Hz; potencia: 11000 W; certificación: TEST-CERT-MX-FM006

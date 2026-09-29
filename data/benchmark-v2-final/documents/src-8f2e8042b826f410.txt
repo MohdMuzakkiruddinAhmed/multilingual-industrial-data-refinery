@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 007; part number: FM007-B; family: FM007; voltage: 120 V; frequency: 50 Hz; power: 375 W

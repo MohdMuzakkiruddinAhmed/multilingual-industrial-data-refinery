@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 002; referencia: FM002-A; familia: FM002; tensión: 120 V; frecuencia: 50 Hz; potencia: 375 W

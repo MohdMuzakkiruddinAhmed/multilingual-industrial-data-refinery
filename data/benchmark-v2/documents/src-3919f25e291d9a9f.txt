@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 006; part number: FM006-A; family: FM006; voltage: 208 V; frequency: 60 Hz; power: 11000 W; certification: TEST-CERT-MX-FM006

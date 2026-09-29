@@ -1,0 +1,6 @@
+  Manufacturer = Synthetic Motors 003  
+  MPN = FM003-A  
+  Rated voltage = 460 V  
+  Series = FM003  
+  Rated frequency = 60 Hz  
+  Rated power = 750 W  

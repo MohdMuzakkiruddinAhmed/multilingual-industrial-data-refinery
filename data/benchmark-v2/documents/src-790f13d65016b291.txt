@@ -1,0 +1,6 @@
+  Rated voltage = 208 V  
+  MPN = FM013-A  
+  Rated frequency = 50 Hz  
+  Series = FM013  
+  Rated power = 375 W  
+  Manufacturer = Synthetic Motors 013  

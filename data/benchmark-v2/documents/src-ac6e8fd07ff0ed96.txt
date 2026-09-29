@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 004; part number: FM004-A; family: FM004; voltage: 0.46 kV; frequency: 50 Hz; power: 0.375 kW

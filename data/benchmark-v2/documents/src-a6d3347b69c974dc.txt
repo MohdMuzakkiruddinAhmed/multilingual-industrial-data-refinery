@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 021; part number: FM021-A; family: FM021; voltage: 400/690 V; frequency: 50 Hz; power: 7500 W

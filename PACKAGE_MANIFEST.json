@@ -1,0 +1,32 @@
+{
+  "package": "multilingual-industrial-data-refinery",
+  "publication_date": "2026-09-29",
+  "repository": "https://github.com/MohdMuzakkiruddinAhmed/multilingual-industrial-data-refinery",
+  "included": "Project code, synthetic datasets, saved experiments, model audits, checkpoints, documentation, and GitHub templates.",
+  "excluded": [
+    "Python bytecode and caches",
+    "credentials and local environments",
+    "Git metadata",
+    "release archives",
+    "new local verification runs"
+  ],
+  "source_archive_sha256": "6b413c71e7f074e1d9aea805f78c6fe0c834700de0e26b84c98c84a8ead1dc4d",
+  "tracked_file_count": 3977,
+  "research_code_tests_data_outputs_preserved": true,
+  "presentation_changes": [
+    "README and SVG banner",
+    "architecture and contribution guides",
+    "issue and pull request templates",
+    "package URLs and metadata",
+    "GitHub language statistics attributes",
+    "refreshed package integrity metadata"
+  ],
+  "validation": {
+    "python": "3.12",
+    "offline_tests_passed": 49,
+    "original_demo_exact_cases": "14/14",
+    "full_rules_exact_cases": "408/432",
+    "live_api_calls_made": 0
+  },
+  "live_api_key_included": false
+}

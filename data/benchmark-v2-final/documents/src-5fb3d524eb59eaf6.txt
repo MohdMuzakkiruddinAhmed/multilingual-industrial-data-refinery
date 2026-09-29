@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 003; part number: FM003-A; family: FM003; voltage: 460 V; frequency: 60 Hz; power: 750 W; certification: TEST-CERT-MX-FM003

@@ -1,0 +1,1 @@
+manufacturer: Other Demo 2; part number: FM002-X; family: OTHER2; voltage: 110 V; frequency: 50 Hz; power: 375 W

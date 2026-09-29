@@ -1,0 +1,53 @@
+{
+  "version": "synthetic-motors-v2",
+  "seed": 20260927,
+  "cases": 1728,
+  "groups": 24,
+  "splits": {
+    "train": 864,
+    "dev": 432,
+    "test": 432
+  },
+  "languages": {
+    "en": 432,
+    "de": 432,
+    "es": 432,
+    "ar": 432
+  },
+  "scenarios": {
+    "clean": 96,
+    "shuffled_synonyms": 96,
+    "markdown_table": 96,
+    "json_record": 96,
+    "unit_conversion": 96,
+    "missing_power": 96,
+    "ambiguous_voltage": 96,
+    "active_conflict": 96,
+    "superseded_revision": 96,
+    "market_missing_certificate": 96,
+    "market_certificate": 96,
+    "prompt_injection": 96,
+    "withdrawn": 96,
+    "identity_collision": 96,
+    "related_variant": 96,
+    "narrative": 96,
+    "different_product": 96,
+    "unauthorized": 96
+  },
+  "formats": {
+    "clean": 1344,
+    "shuffled_synonyms": 96,
+    "markdown_table": 96,
+    "json_record": 96,
+    "narrative": 96
+  },
+  "source_documents": 1920,
+  "input_sha256": "5cb5be7a062b453c4071c5f15314641fb7a78886c1798664e586ad19cd5cb0a5",
+  "oracle_sha256": "fd3961fa973ade0f46cdd89b2d6a59f505f5fcd18284dd7960fda962f7d30d0f",
+  "limitations": [
+    "Synthetic templates shared across group-disjoint splits; not a template-generalization test.",
+    "Narrative cases deliberately measure the current evidence verifier's coverage limit.",
+    "No foundation model training is performed; train split reserved for future work.",
+    "Language phrasing requires independent bilingual validation before publication."
+  ]
+}

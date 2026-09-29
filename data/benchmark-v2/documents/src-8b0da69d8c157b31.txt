@@ -1,0 +1,6 @@
+  Serie = FM023  
+  Fabricante = Synthetic Motors 023  
+  Número de pieza = FM023-A  
+  Frecuencia nominal = 60 Hz  
+  Tensión nominal = 230 V  
+  Potencia nominal = 1500 W  

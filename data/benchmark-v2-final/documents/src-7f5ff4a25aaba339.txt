@@ -1,0 +1,6 @@
+  Frecuencia nominal = 60 Hz  
+  Potencia nominal = 750 W  
+  Número de pieza = FM003-A  
+  Serie = FM003  
+  Fabricante = Synthetic Motors 003  
+  Tensión nominal = 460 V  

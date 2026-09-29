@@ -1,0 +1,6 @@
+  Rated power = 1500 W  
+  Rated voltage = 208 V  
+  Rated frequency = 60 Hz  
+  MPN = FM017-A  
+  Manufacturer = Synthetic Motors 017  
+  Series = FM017  

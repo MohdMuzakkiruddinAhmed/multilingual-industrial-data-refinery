@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 011; part number: FM011-A; family: FM011; voltage: 230 V; frequency: 60 Hz; power: 375 W; certification: TEST-CERT-MX-FM011

@@ -1,0 +1,6 @@
+  Nennspannung = 230 V  
+  Nennfrequenz = 60 Hz  
+  Baureihe = FM011  
+  Nennleistung = 375 W  
+  Artikelnummer = FM011-A  
+  Hersteller = Synthetic Motors 011  

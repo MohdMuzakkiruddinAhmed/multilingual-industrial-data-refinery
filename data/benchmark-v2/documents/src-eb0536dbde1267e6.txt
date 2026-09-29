@@ -1,0 +1,1 @@
+El motor de la serie FM018 de Synthetic Motors 018 tiene la referencia FM018-A. Funciona a 400 V y 50 Hz, con una potencia de 125 W.

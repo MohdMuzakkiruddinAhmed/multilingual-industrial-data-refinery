@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 013; part number: FM013-A; family: FM013; voltage: 208 V; frequency: 50 Hz

@@ -1,0 +1,6 @@
+  Tensión nominal = 400 V  
+  Número de pieza = FM022-A  
+  Potencia nominal = 1500 W  
+  Frecuencia nominal = 60 Hz  
+  Fabricante = Synthetic Motors 022  
+  Serie = FM022  

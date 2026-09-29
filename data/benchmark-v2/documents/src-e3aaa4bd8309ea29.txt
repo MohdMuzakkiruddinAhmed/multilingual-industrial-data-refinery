@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 019; referencia: FM019-A; familia: FM019; tensión: 0,208 kV; frecuencia: 60 Hz; potencia: 0,375 kW

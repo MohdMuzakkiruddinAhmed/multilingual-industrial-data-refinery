@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 009; referencia: FM009-A; familia: FM009; tensión: 208 V; frecuencia: 60 Hz; potencia: 750 W

@@ -1,0 +1,6 @@
+  Fabricante = Synthetic Motors 012  
+  Número de pieza = FM012-A  
+  Potencia nominal = 125 W  
+  Tensión nominal = 230 V  
+  Frecuencia nominal = 60 Hz  
+  Serie = FM012  

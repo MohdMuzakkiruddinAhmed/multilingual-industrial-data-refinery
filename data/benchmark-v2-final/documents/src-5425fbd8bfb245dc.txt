@@ -1,0 +1,6 @@
+  Artikelnummer = FM010-A  
+  Nennleistung = 2200 W  
+  Nennfrequenz = 60 Hz  
+  Nennspannung = 208 V  
+  Baureihe = FM010  
+  Hersteller = Synthetic Motors 010  

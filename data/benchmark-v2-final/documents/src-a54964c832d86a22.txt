@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 001; referencia: FM001-A; familia: FM001; tensión: 230 V; frecuencia: 60 Hz; potencia: 375 W; certificación: TEST-CERT-MX-FM001

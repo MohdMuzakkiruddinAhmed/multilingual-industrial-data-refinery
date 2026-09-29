@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 008; part number: FM008-A; family: FM008; voltage: 0.4 kV; frequency: 60 Hz; power: 11 kW

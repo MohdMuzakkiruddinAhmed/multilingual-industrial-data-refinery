@@ -1,0 +1,6 @@
+  MPN = FM008-A  
+  Rated power = 11000 W  
+  Rated voltage = 400 V  
+  Series = FM008  
+  Manufacturer = Synthetic Motors 008  
+  Rated frequency = 60 Hz  

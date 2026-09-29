@@ -1,0 +1,1 @@
+manufacturer: Other Demo 12; part number: FM012-X; family: OTHER12; voltage: 230 V; frequency: 60 Hz; power: 125 W

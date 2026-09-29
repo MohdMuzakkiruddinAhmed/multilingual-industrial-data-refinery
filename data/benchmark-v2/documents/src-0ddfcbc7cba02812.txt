@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 022; part number: FM022-A; family: FM022; voltage: 410 V; frequency: 60 Hz; power: 1500 W

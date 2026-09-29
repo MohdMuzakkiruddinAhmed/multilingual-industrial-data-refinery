@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 018; referencia: FM018-A; familia: FM018; tensión: 400/690 V; frecuencia: 50 Hz; potencia: 125 W

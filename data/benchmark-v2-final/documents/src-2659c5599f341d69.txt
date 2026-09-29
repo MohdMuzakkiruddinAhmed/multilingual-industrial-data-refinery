@@ -1,0 +1,1 @@
+manufacturer: Other Demo 13; part number: FM013-X; family: OTHER13; voltage: 208 V; frequency: 50 Hz; power: 375 W

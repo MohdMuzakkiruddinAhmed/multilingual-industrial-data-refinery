@@ -1,0 +1,6 @@
+  Hersteller = Synthetic Motors 017  
+  Nennleistung = 1500 W  
+  Artikelnummer = FM017-A  
+  Nennspannung = 208 V  
+  Nennfrequenz = 60 Hz  
+  Baureihe = FM017  

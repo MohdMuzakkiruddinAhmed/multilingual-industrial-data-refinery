@@ -1,0 +1,1 @@
+manufacturer: Other Demo 18; part number: FM018-X; family: OTHER18; voltage: 400 V; frequency: 50 Hz; power: 125 W

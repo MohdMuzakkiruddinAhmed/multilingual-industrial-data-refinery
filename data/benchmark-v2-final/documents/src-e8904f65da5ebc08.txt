@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 020; referencia: FM020-B; familia: FM020; tensión: 218 V; frecuencia: 60 Hz; potencia: 7500 W

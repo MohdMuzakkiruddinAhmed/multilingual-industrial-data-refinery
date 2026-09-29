@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 005; part number: FM005-A; family: FM005; voltage: 208 V; frequency: 50 Hz

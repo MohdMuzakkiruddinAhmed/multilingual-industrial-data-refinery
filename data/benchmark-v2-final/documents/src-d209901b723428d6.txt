@@ -1,0 +1,6 @@
+  Fabricante = Synthetic Motors 018  
+  Tensión nominal = 400 V  
+  Frecuencia nominal = 50 Hz  
+  Potencia nominal = 125 W  
+  Serie = FM018  
+  Número de pieza = FM018-A  

@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 010; referencia: FM010-A; familia: FM010; tensión: 208 V; frecuencia: 60 Hz; potencia: 2200 W; certificación: TEST-CERT-MX-FM010

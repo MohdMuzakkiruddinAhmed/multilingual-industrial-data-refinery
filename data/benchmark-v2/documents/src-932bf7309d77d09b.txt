@@ -1,0 +1,1 @@
+Hersteller: Synthetic Motors 000; Teilenummer: FM000-A; Familie: FM000; Spannung: 0,46 kV; Frequenz: 50 Hz; Leistung: 0,375 kW

@@ -1,0 +1,6 @@
+  Nennleistung = 5500 W  
+  Nennfrequenz = 50 Hz  
+  Nennspannung = 208 V  
+  Artikelnummer = FM005-A  
+  Baureihe = FM005  
+  Hersteller = Synthetic Motors 005  

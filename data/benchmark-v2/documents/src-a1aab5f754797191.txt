@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 009; part number: FM009-B; family: FM009; voltage: 218 V; frequency: 60 Hz; power: 750 W

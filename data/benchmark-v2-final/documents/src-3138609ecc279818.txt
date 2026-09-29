@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 014; part number: FM014-A; family: FM014; voltage: 460/690 V; frequency: 50 Hz; power: 7500 W

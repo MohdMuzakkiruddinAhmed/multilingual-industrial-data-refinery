@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 023; referencia: FM023-A; familia: FM023; tensión: 230 V; frecuencia: 60 Hz; potencia: 1500 W; certificación: TEST-CERT-MX-FM023

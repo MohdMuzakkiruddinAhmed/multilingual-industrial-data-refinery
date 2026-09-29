@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 012; referencia: FM012-A; familia: FM012; tensión: 0,23 kV; frecuencia: 60 Hz; potencia: 0,125 kW

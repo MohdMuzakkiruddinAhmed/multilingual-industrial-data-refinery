@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 007; part number: FM007-A; family: FM007; voltage: 110 V; frequency: 50 Hz

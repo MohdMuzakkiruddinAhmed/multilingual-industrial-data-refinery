@@ -1,0 +1,196 @@
+Multilingual Industrial Data Refinery: A Provenance-Grounded Agentic Methodology for Cross-Market Catalog Harmonization
+Here, provenance-grounded means that every accepted product attribute remains connected to the source evidence and transformations that produced it.
+I would keep “NVIDIA” out of the title and discuss NVIDIA models prominently in the implementation section. The main contribution should be the refinement methodology, not a particular model vendor.
+1. Define the problem and keep the first paper focused
+For this paper, I would define an industrial data refinery as:
+A controlled process that transforms heterogeneous industrial product records into structured, normalized, multilingual catalog entries, while retaining source evidence, resolving inconsistencies, and separating verified facts from unverified suggestions.
+
+Building on your industrial-catalog direction, the initial scope should be industrial product and material master data: manufacturer catalogs, supplier descriptions, technical specifications, spreadsheets, procurement records, and legacy catalog entries.
+I would not include industrial sensor streams, predictive maintenance, manufacturing scheduling, or every type of enterprise data in this first paper. Those would make the contribution harder to define.
+The intended transformation is:
+Heterogeneous source records → evidence-linked product facts → canonical product records → approved language- and market-specific catalog views.
+The essential distinction: language is not the same as market
+The methodology should represent three separate concepts:
+Language determines how a description is expressed.
+Locale determines presentation conventions and terminology preferences.
+Market profile determines the required catalog fields, approved vocabulary, publication rules, and organizational restrictions for a particular destination.
+For an initial methodological illustration, I suggest English, German, Spanish, and Arabic, with two Spanish-language market profiles to demonstrate that localization is more than translation. These are proposed demonstration settings, not claims about languages already present in your dataset.
+The design must also distinguish a translated description of the same product from a genuinely different product variant.
+For example, in a hypothetical case, a 230 V, 50 Hz motor must not become a 110 V, 60 Hz motor merely because its description is localized for a different market. The latter should be treated as a separate variant unless authoritative evidence establishes otherwise.
+The governing idea is: adapt the presentation, not the product facts.
+2. Position the novelty carefully
+Using LLMs, retrieval, multiple agents, or multilingual catalog data is not by itself a sufficient novelty claim. Several closely related studies already address these components.
+Relevant work	What it already addresses	How your paper should distinguish itself
+Retrieval-Augmented Multi-LLM Ensemble for Industrial Part Specification Extraction, by Mohammed, Talburt, and collaborators	RAGsemble combines multiple LLMs and retrieval for industrial part extraction and synthesis.	Focus on preservation of identity and technical facts across languages and markets, rather than another multi-model extraction ensemble. arXiv
+Leveraging Product Catalog Patterns for Multilingual E-commerce Product Attribute Prediction	PatternRAG uses existing catalog patterns to support missing-attribute prediction across multilingual stores.	Separate predicted attributes from verified attributes, and define when either can enter an approved industrial catalog. ACL Anthology
+AttributeForge: An Agentic LLM Framework for Automated Product Schema Modeling	Uses specialized agents to generate, validate, and refine product schemas.	Concentrate on evidence-preserving transformation of product records under an approved schema, rather than schema generation itself. ACL Anthology
+Entity Matching using Large Language Models	Investigates LLM-based matching, including locally runnable models, prompting, and adaptation.	Define cross-language product identity and variant-handling rules within a complete refinement and publication process. arXiv
+
+
+The relationship to RAGsemble is particularly important because it overlaps directly with the industrial-part extraction direction. This new paper should explicitly explain what it adds beyond that work.
+I recommend organizing the contribution around three methodological advances.
+Contribution 1: A canonical product representation with controlled market views
+Define a shared representation of product identity and technical attributes, then generate language- and market-specific views from it.
+The important contribution is the transformation contract: which fields may change, which must remain invariant, what evidence is required, and what happens when sources disagree.
+Contribution 2: An evidence-controlled agent protocol
+Specify how agents propose changes, retrieve supporting evidence, validate transformations, and escalate uncertainty.
+An agent-generated value should not automatically become an accepted product fact. The protocol should make that distinction explicit and enforceable.
+Contribution 3: A capability- and policy-aware local deployment methodology
+Define how the refinery selects models according to the task, language, document type, and deployment restrictions.
+The scientific contribution would be the routing and acceptance policy, not simply the fact that a model runs locally.
+These are promising contribution directions. The literature found so far supports this positioning, but it does not establish a defensible “first-ever” claim.
+3. Use four research questions
+I would use the following research questions to organize the paper:
+RQ1 — Semantic preservation: How should industrial product data be represented so that translation and localization do not alter identity or technical attributes?
+RQ2 — Controlled agency: How can specialized LLM agents refine incomplete and inconsistent records while keeping extracted facts, derived values, and speculative suggestions separate?
+RQ3 — Cross-market adaptation: How can one refinement methodology support different languages and market requirements without rebuilding the entire pipeline?
+RQ4 — Local execution and accountability: How should model capabilities, deployment restrictions, evidence, and human review determine which outputs are eligible for publication?
+Each question should lead to a specific artifact: a data model, an agent protocol, a market-profile specification, or an acceptance policy.
+4. Proposed architecture
+I recommend the following architecture:
+Industrial documents and legacy records
+                    ↓
+       Ingestion and source registration
+                    ↓
+        Evidence-preserving extraction
+                    ↓
+     Semantic and attribute normalization
+                    ↓
+     Product matching and classification
+                    ↓
+          Canonical product record
+                    ↓
+     Language and market-specific adaptation
+                    ↓
+    Deterministic checks and evidence review
+                    ↓
+       Approval, publication, and versioning
+
+A shared evidence store and an approved reference library should support the entire process. Agents should operate within this structure rather than bypass it.
+Stage A: Ingestion and source registration
+Register the original document or record before extracting anything.
+Store its identifier, version, language, access restrictions, and structural location information. For a spreadsheet, this might include sheet, row, and column. For a document, it might include page, table, and text region.
+Keep original content immutable. A corrected value should create a new derived record, not erase the original value.
+Make extraction parser-independent. Your existing document-processing work can feed this stage through a common interface rather than making the paper depend on one parser.
+For digitally available text, use native extraction first. Treat OCR and visual interpretation as optional routes for sources that require them, rather than expanding the first paper into a separate document-understanding benchmark.
+Stage B: Evidence-preserving extraction
+The extraction agent proposes structured attributes from the source material.
+For every proposed attribute, require the value, source location, original text, and extraction status. Missing information should remain explicitly missing.
+The agent must distinguish:
+Explicitly stated: The value appears in an authorized source.
+Derived: The value follows from a documented transformation, such as an approved unit conversion.
+Suggested: The value is inferred from context, similar products, or model knowledge.
+Only the first two categories should be eligible for automatic acceptance under appropriate checks. Suggested values should remain in a separate review channel.
+This is an important distinction from catalog-completion methods that emphasize predicting missing attributes: your methodology should define when a prediction is insufficient evidence for an industrial fact. PatternRAG provides a useful comparison for that discussion. ACL Anthology
+Stage C: Semantic and attribute normalization
+Normalize extracted information into an approved schema.
+This stage should resolve attribute names, controlled terminology, abbreviations, value types, and units. However, identifiers and technically meaningful designations should be protected from uncontrolled rewriting.
+For example, the methodology should prohibit expanding an ambiguous material abbreviation into a specific material grade without evidence.
+Store the original expression alongside its normalized representation. That allows a reviewer to see what changed and why.
+Use code-based tools for arithmetic, datatype checking, and unit conversion. Use the LLM for interpreting context and proposing mappings—not as the calculator or final authority.
+Stage D: Product matching and classification
+Retrieve candidate matches from the approved catalog and compare them using both semantic similarity and protected attributes.
+The matching agent should produce one of four outcomes:
+Same product, related variant, different product, or insufficient evidence.
+That is more informative than a binary “duplicate/not duplicate” decision.
+A matching decision should consider identifiers, dimensions, materials, ratings, and other category-specific constraints. Similar wording should only generate a candidate match; it should not authorize a merge.
+For UNSPSC classification, retrieve candidates from a versioned, authorized taxonomy resource. Store the selected code, taxonomy version, evidence, and review status. Do not let the LLM invent classification codes.
+Stage E: Language- and market-specific adaptation
+Generate localized views from the canonical record, using an approved terminology resource and a versioned market profile.
+A market profile should specify language, preferred terminology, display conventions, required fields, protected identifiers, permitted transformations, and review conditions.
+An important design choice is that the canonical record should be structured and concept-based, not merely an English paragraph used as an intermediate translation.
+An English rendering can be useful for a particular model, but the refinery’s shared representation should consist of typed attributes and stable identifiers.
+Stage F: Verification, approval, and publication
+Separate verification into two parts.
+Deterministic verification checks schema validity, protected identifiers, required fields, quantity transformations, evidence links, and publication permissions.
+Semantic review checks whether the normalized or translated wording expresses the supported meaning. An LLM can assist this review, but unresolved ambiguity should trigger qualified human review.
+Use a record lifecycle such as:
+Proposed → checked → approved → published, with explicit rejected, superseded, and review-required states.
+Publication should be performed by a controlled service, not directly by an autonomous agent.
+5. Make the agents purposeful, not decorative
+A reviewer may ask: Why do you need agents rather than a normal pipeline?
+The answer should be conditional decision-making. An agent may choose which reference to retrieve, whether another source is needed, whether a proposed match is ambiguous, or whether a case should be escalated.
+I recommend four principal agent roles:
+Agent	Main responsibility	Boundary
+Extraction and normalization agent	Interpret source content and propose schema-aligned attributes.	Cannot silently fill missing technical facts.
+Identity and classification agent	Retrieve candidate products and categories; assess matches and variants.	Cannot merge records solely from textual similarity.
+Localization agent	Produce language- and market-specific views using approved terminology.	Cannot change protected facts or invent market-specific certifications.
+Evidence-review agent	Identify unsupported claims, contradictions, and unresolved transformations.	Cannot independently declare its own judgment to be ground truth.
+
+
+Ingestion, numerical conversion, schema validation, access control, and publication should remain ordinary tools or services.
+Each agent contract should specify its inputs, permitted tools, output schema, stopping conditions, retry limit, and escalation rules. Store structured decisions and evidence references rather than relying on free-form conversations between agents.
+More agents should not be presented as inherently better. The method should justify each role and allow simpler execution when a record does not require additional reasoning.
+6. Formalize the methodology without overloading it with equations
+A methodology paper needs precise definitions, but it does not need unnecessary mathematics.
+A useful starting point is:
+\[
+C_i = \left(\mathrm{id}_i, A_i, E_i\right)
+\]
+where \(C_i\) is the canonical record for product \(i\), \(\mathrm{id}_i\) is its identity, \(A_i\) is its set of typed attributes, and \(E_i\) is the associated evidence.
+A localized view can then be written as:
+\[
+V_{i,\ell,m}
+=
+G\left(C_i,T_{\ell,m},P_m\right)
+\]
+Here, \(\ell\) identifies the language or locale, \(m\) identifies the market profile, \(T_{\ell,m}\) is the approved terminology resource, and \(P_m\) defines the market’s publication rules.
+The important material comes next: the invariants governing \(G\).
+Identity preservation: Localization must not silently change the product identity or collapse different variants.
+Technical preservation: Protected values must retain their meaning. Any permitted quantity conversion must record its rule, original value, converted value, and precision.
+Evidence preservation: An accepted value must retain its supporting source or documented derivation.
+Approval preservation: Translation or reformatting must not upgrade an unverified claim into an approved fact.
+Revision accountability: When source evidence is withdrawn or superseded, dependent outputs must be identifiable for reassessment.
+Use existing provenance concepts rather than claiming to invent provenance itself. W3C PROV already provides a model for representing entities, activities, and responsible agents; your contribution would be the industrial refinement rules and acceptance conditions built around that foundation. W3C
+You can include analytical propositions about traceability or state transitions. However, a proof that evidence links are preserved is not a proof that the source content is factually correct. Keep that limitation explicit.
+7. NVIDIA and locally deployed model plan
+“NVIDIA models” and “local models” are not opposing categories. NVIDIA models can also be deployed locally; the Nemotron model documentation includes local serving instructions. Hugging Face
+I suggest the following candidate reference stack, based on documentation checked on September 27, 2026:
+Component	Candidate	Proposed role and qualification
+General reasoning and tool use	NVIDIA Nemotron 3 Nano 30B-A3B	Candidate for normalization, orchestration, and evidence reasoning. Its listed supported languages include English, German, Spanish, French, Italian, and Japanese; do not assume equivalent Arabic support. Hugging Face
+Translation	NVIDIA Riva-Translate-4B-Instruct-v2	Candidate for terminology-guided translation. Its documentation lists 37 supported languages, including Arabic and regional Spanish and Portuguese variants. Domain-specific fidelity still requires validation. NVIDIA NIM
+Cross-language retrieval	NVIDIA Nemotron-3-Embed-1B-BF16	Candidate for finding reference passages and potentially matching records. Its model card reports evaluation across 34 languages, including the proposed initial languages. Retrieval similarity should not itself authorize product identity decisions. Hugging Face
+Alternative local multilingual LLM	Qwen3-8B	A compact comparison model and candidate for native-language processing. Its model card describes multilingual instruction-following and translation support across more than 100 languages and dialects. Hugging Face
+Optional scanned-document route	NVIDIA Nemotron OCR v2	Candidate for supported document languages. Its detailed multilingual variant description lists English, Chinese, Japanese, Korean, and Russian; Arabic document extraction must not be assumed from the word “multilingual.” Hugging Face
+
+
+These are candidates for a reproducible implementation, not claims that they are the best models for industrial terminology.
+For orchestration and instrumentation, NVIDIA NeMo Agent Toolkit provides framework-agnostic integration and workflow profiling capabilities. It can support the implementation without defining the scientific contribution. NVIDIA Docs
+NeMo Curator can support corpus preparation, language detection, filtering, and deduplication. Its documented role is dataset curation; the product-identity logic, market profiles, and approval protocol would still be your own methodology. NVIDIA Docs
+Deployment rules to specify
+Keep confidential records, prompts, retrieved evidence, and logs within an approved execution environment. A failed local request should not silently fall back to an external API.
+Treat catalog text as untrusted input: document content must not become permission to execute tools or modify enterprise systems.
+Record exact model revisions, prompts, terminology versions, inference settings, and software versions. Model licenses and language capabilities should be checked individually rather than inferred from a model-family name.
+For the first paper, I would avoid training a new foundation model or introducing a complex learned router. A transparent capability-based routing policy is easier to explain, audit, and reproduce.
+8. Validation suitable for a methodology paper
+Since you want a methodology paper, the manuscript can center on the formal design, agent contracts, implementation specification, and carefully worked cases.
+Do not insert unrun experiments, invented accuracy numbers, or claims of demonstrated improvement.
+Main-paper validation: worked cases and failure analysis
+Use a small set of explicitly labeled illustrative or authorized anonymized cases:
+A multilingual duplicate with consistent technical attributes; a visually similar but technically different variant; an ambiguous unit expression; a missing attribute that a model is tempted to invent; conflicting source revisions; and a market view missing a required publication field.
+For each case, show the source evidence, candidate interpretation, applicable rule, agent action, and final disposition.
+A strong example would demonstrate not only successful processing but also a justified refusal to merge, translate, or publish.
+Synthetic cases are useful for explaining the methodology. They must not be presented as evidence of real-world performance.
+Prospective evaluation protocol
+Include a clearly labeled protocol for later empirical evaluation.
+The most useful comparisons would be a translation-and-rules pipeline, a single local LLM with the same reference access, a fixed non-agentic workflow using the same models and checks, and the proposed conditional agent workflow.
+The fixed-workflow comparison is especially important: it isolates the value of agent decisions rather than merely giving your system more tools.
+Prioritize technical attribute correctness, unsupported-claim rate, false product merges, terminology accuracy, verified evidence support, review burden, and execution cost. Report language- and market-specific results rather than only an overall average.
+Measure correctness among accepted outputs together with the proportion of records accepted automatically. Otherwise, a system could appear very accurate simply by escalating nearly everything.
+For a future empirical study, split data by product family or source group and keep translated versions of the same product together. Use qualified bilingual technical reviewers for reference annotations. Model agreement and back-translation can assist analysis but should not serve as the sole ground truth.
+9. Recommended manuscript structure
+A working target is approximately 10–12 pages of main text, adjusted after selecting the venue.
+Section	What it should establish
+1. Introduction	Industrial motivation, why translation alone is insufficient, research questions, and contributions.
+2. Related Work	Industrial extraction, multilingual catalog refinement, entity matching, agentic workflows, and provenance.
+3. Problem Definition and Requirements	Inputs, outputs, canonical identity, market profiles, protected attributes, and assumptions.
+4. Agentic Refinement Methodology	Architecture, agent contracts, tools, evidence handling, routing, and escalation.
+5. Cross-Language and Cross-Market Preservation	Formal representation, invariants, permitted transformations, and variant handling.
+6. Local Reference Implementation	NVIDIA and alternative models, capability mapping, execution boundaries, and reproducibility.
+7. Worked Cases and Failure Analysis	Step-by-step examples, rejected transformations, and limitations exposed by the cases.
+8. Evaluation Protocol	Proposed baselines, metrics, annotation procedures, and ablations—not unrun results.
+9. Discussion and Limitations	Source errors, language coverage, correlated model errors, confidentiality, and human-review costs.
+10. Conclusion	The methodological contribution and the boundary between what is specified and what remains to be empirically tested.
+
+
+The paper should contain three principal figures: the overall architecture; the relationship between a canonical product and its market views; and the evidence/approval lifecycle.

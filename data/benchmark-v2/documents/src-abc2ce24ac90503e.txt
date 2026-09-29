@@ -1,0 +1,6 @@
+  Series = FM022  
+  Rated power = 1500 W  
+  MPN = FM022-A  
+  Manufacturer = Synthetic Motors 022  
+  Rated voltage = 400 V  
+  Rated frequency = 60 Hz  

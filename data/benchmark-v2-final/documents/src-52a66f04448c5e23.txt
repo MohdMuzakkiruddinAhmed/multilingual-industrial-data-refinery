@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 018; part number: FM018-A; family: FM018; voltage: 400 V; frequency: 50 Hz

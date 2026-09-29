@@ -1,0 +1,1 @@
+manufacturer: Other Demo 4; part number: FM004-X; family: OTHER4; voltage: 460 V; frequency: 50 Hz; power: 375 W

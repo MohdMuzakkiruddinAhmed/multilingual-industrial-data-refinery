@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 000; referencia: FM000-A; familia: FM000; tensión: 460 V; frecuencia: 50 Hz

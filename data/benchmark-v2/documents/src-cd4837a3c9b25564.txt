@@ -1,0 +1,6 @@
+  Potencia nominal = 7500 W  
+  Tensión nominal = 208 V  
+  Número de pieza = FM020-A  
+  Serie = FM020  
+  Frecuencia nominal = 60 Hz  
+  Fabricante = Synthetic Motors 020  

@@ -1,0 +1,1 @@
+fabricante: Other Demo 6; referencia: FM006-X; familia: OTHER6; tensión: 208 V; frecuencia: 60 Hz; potencia: 11000 W

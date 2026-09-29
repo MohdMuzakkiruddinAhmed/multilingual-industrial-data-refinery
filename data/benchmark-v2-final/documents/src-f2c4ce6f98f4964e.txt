@@ -1,0 +1,1 @@
+manufacturer: Other Demo 0; part number: FM000-X; family: OTHER0; voltage: 460 V; frequency: 50 Hz; power: 375 W

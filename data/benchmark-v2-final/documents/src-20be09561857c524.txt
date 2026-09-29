@@ -1,0 +1,1 @@
+fabricante: Other Demo 15; referencia: FM015-X; familia: OTHER15; tensión: 400 V; frecuencia: 60 Hz; potencia: 7500 W

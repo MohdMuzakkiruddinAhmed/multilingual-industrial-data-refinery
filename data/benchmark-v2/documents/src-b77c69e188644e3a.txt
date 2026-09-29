@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 001; part number: FM001-B; family: FM001; voltage: 240 V; frequency: 60 Hz; power: 375 W

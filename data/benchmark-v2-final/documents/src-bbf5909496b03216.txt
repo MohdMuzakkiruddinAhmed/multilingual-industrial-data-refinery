@@ -1,0 +1,6 @@
+  Nennspannung = 208 V  
+  Artikelnummer = FM009-A  
+  Baureihe = FM009  
+  Nennleistung = 750 W  
+  Nennfrequenz = 60 Hz  
+  Hersteller = Synthetic Motors 009  

@@ -1,0 +1,1 @@
+manufacturer: Other Demo 19; part number: FM019-X; family: OTHER19; voltage: 208 V; frequency: 60 Hz; power: 375 W

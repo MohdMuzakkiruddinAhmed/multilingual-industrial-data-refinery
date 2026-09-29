@@ -1,0 +1,6 @@
+  Nennfrequenz = 50 Hz  
+  Nennspannung = 208 V  
+  Artikelnummer = FM013-A  
+  Nennleistung = 375 W  
+  Baureihe = FM013  
+  Hersteller = Synthetic Motors 013  

@@ -1,0 +1,6 @@
+  Artikelnummer = FM022-A  
+  Nennspannung = 400 V  
+  Nennleistung = 1500 W  
+  Hersteller = Synthetic Motors 022  
+  Nennfrequenz = 60 Hz  
+  Baureihe = FM022  

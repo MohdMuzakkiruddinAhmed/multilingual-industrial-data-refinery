@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 000; referencia: FM000-A; familia: FM000; tensión: 0,46 kV; frecuencia: 50 Hz; potencia: 0,375 kW

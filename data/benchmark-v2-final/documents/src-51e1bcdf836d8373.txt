@@ -1,0 +1,6 @@
+  Nennspannung = 400 V  
+  Baureihe = FM018  
+  Artikelnummer = FM018-A  
+  Hersteller = Synthetic Motors 018  
+  Nennleistung = 125 W  
+  Nennfrequenz = 50 Hz  

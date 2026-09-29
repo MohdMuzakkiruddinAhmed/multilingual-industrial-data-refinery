@@ -1,0 +1,6 @@
+  Rated voltage = 208 V  
+  Rated frequency = 60 Hz  
+  Series = FM009  
+  MPN = FM009-A  
+  Manufacturer = Synthetic Motors 009  
+  Rated power = 750 W  

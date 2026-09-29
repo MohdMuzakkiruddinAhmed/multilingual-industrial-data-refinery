@@ -1,0 +1,1 @@
+manufacturer: Other Demo 21; part number: FM021-X; family: OTHER21; voltage: 400 V; frequency: 50 Hz; power: 7500 W

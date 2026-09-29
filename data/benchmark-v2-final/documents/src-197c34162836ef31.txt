@@ -1,0 +1,1 @@
+fabricante: Other Demo 23; referencia: FM023-X; familia: OTHER23; tensión: 230 V; frecuencia: 60 Hz; potencia: 1500 W

@@ -1,0 +1,17 @@
+{
+  "primary": "exact_case_accuracy",
+  "secondary": [
+    "attribute_f1",
+    "raw_extraction_f1",
+    "publication_precision",
+    "publication_recall",
+    "auto_acceptance_rate",
+    "matching_accuracy",
+    "logical_requests",
+    "logical_tokens",
+    "latency_seconds_p50",
+    "latency_seconds_p95"
+  ],
+  "failures": "Included in all denominators; no post-hoc substitution of successful retries.",
+  "scope": "Motor catalogs; language and market are independent axes; certificates are fictional."
+}

@@ -1,0 +1,160 @@
+{
+  "english_complete": {
+    "state": "approved",
+    "match": "same_product",
+    "attributes": {
+      "manufacturer": "Aster Demo",
+      "part_number": "AX-230",
+      "family": "AX",
+      "voltage": "230",
+      "frequency": "50",
+      "power": "1500"
+    }
+  },
+  "german_duplicate": {
+    "state": "approved",
+    "match": "same_product",
+    "attributes": {
+      "manufacturer": "Aster Demo",
+      "part_number": "AX-230",
+      "family": "AX",
+      "voltage": "230",
+      "frequency": "50",
+      "power": "1500"
+    }
+  },
+  "spanish_duplicate": {
+    "state": "approved",
+    "match": "same_product",
+    "attributes": {
+      "manufacturer": "Aster Demo",
+      "part_number": "AX-230",
+      "family": "AX",
+      "voltage": "230",
+      "frequency": "50",
+      "power": "1500"
+    }
+  },
+  "arabic_duplicate": {
+    "state": "approved",
+    "match": "same_product",
+    "attributes": {
+      "manufacturer": "Aster Demo",
+      "part_number": "AX-230",
+      "family": "AX",
+      "voltage": "230",
+      "frequency": "50",
+      "power": "1500"
+    }
+  },
+  "distinct_variant": {
+    "state": "approved",
+    "match": "related_variant",
+    "attributes": {
+      "manufacturer": "Aster Demo",
+      "part_number": "AX-110",
+      "family": "AX",
+      "voltage": "110",
+      "frequency": "60",
+      "power": "1500"
+    }
+  },
+  "missing_power": {
+    "state": "review_required",
+    "match": "insufficient_evidence",
+    "attributes": {
+      "manufacturer": "Aster Demo",
+      "part_number": "AX-230",
+      "family": "AX",
+      "voltage": "230",
+      "frequency": "50"
+    }
+  },
+  "ambiguous_voltage": {
+    "state": "review_required",
+    "match": "insufficient_evidence",
+    "attributes": {
+      "manufacturer": "Aster Demo",
+      "part_number": "AX-230",
+      "family": "AX",
+      "frequency": "50",
+      "power": "1500"
+    }
+  },
+  "conflicting_sources": {
+    "state": "review_required",
+    "match": "insufficient_evidence",
+    "attributes": {
+      "manufacturer": "Aster Demo",
+      "part_number": "AX-230",
+      "family": "AX",
+      "frequency": "50",
+      "power": "1500"
+    }
+  },
+  "superseded_revision": {
+    "state": "approved",
+    "match": "same_product",
+    "attributes": {
+      "manufacturer": "Aster Demo",
+      "part_number": "AX-230",
+      "family": "AX",
+      "voltage": "230",
+      "frequency": "50",
+      "power": "1500"
+    }
+  },
+  "market_missing_certificate": {
+    "state": "review_required",
+    "match": "same_product",
+    "attributes": {
+      "manufacturer": "Aster Demo",
+      "part_number": "AX-230",
+      "family": "AX",
+      "voltage": "230",
+      "frequency": "50",
+      "power": "1500"
+    }
+  },
+  "market_with_certificate": {
+    "state": "approved",
+    "match": "same_product",
+    "attributes": {
+      "manufacturer": "Aster Demo",
+      "part_number": "AX-230",
+      "family": "AX",
+      "voltage": "230",
+      "frequency": "50",
+      "power": "1500",
+      "certification": "TEST-CERT-MX-001"
+    }
+  },
+  "prompt_injection": {
+    "state": "review_required",
+    "match": "insufficient_evidence",
+    "attributes": {
+      "manufacturer": "Aster Demo",
+      "part_number": "AX-230",
+      "family": "AX",
+      "voltage": "230",
+      "frequency": "50"
+    }
+  },
+  "withdrawn_evidence": {
+    "state": "review_required",
+    "match": "insufficient_evidence",
+    "attributes": {}
+  },
+  "different_product": {
+    "state": "approved",
+    "match": "different_product",
+    "attributes": {
+      "manufacturer": "Boreal Demo",
+      "part_number": "BZ-400",
+      "family": "BZ",
+      "voltage": "400",
+      "frequency": "50",
+      "power": "1500"
+    }
+  }
+}

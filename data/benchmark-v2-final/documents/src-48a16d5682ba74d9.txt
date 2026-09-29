@@ -1,0 +1,1 @@
+fabricante: Other Demo 3; referencia: FM003-X; familia: OTHER3; tensión: 460 V; frecuencia: 60 Hz; potencia: 750 W

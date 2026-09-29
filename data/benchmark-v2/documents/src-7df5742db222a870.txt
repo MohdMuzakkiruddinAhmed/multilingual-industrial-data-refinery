@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 000; part number: FM000-B; family: FM000; voltage: 470 V; frequency: 50 Hz; power: 375 W

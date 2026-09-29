@@ -1,0 +1,1 @@
+fabricante: Other Demo 14; referencia: FM014-X; familia: OTHER14; tensión: 460 V; frecuencia: 50 Hz; potencia: 7500 W

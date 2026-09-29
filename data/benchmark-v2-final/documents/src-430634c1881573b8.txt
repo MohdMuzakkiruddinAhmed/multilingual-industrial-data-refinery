@@ -1,0 +1,6 @@
+  Serie = FM017  
+  Tensión nominal = 208 V  
+  Número de pieza = FM017-A  
+  Potencia nominal = 1500 W  
+  Frecuencia nominal = 60 Hz  
+  Fabricante = Synthetic Motors 017  

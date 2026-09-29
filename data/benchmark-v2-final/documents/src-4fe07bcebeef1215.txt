@@ -1,0 +1,1 @@
+fabricante: Other Demo 2; referencia: FM002-X; familia: OTHER2; tensión: 110 V; frecuencia: 50 Hz; potencia: 375 W

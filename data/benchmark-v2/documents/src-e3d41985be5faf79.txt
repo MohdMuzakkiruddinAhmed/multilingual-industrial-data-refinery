@@ -1,0 +1,1 @@
+manufacturer: Other Demo 3; part number: FM003-X; family: OTHER3; voltage: 460 V; frequency: 60 Hz; power: 750 W

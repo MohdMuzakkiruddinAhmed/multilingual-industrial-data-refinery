@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 015; part number: FM015-A; family: FM015; voltage: 400 V; frequency: 60 Hz; power: 7500 W; certification: TEST-CERT-MX-FM015

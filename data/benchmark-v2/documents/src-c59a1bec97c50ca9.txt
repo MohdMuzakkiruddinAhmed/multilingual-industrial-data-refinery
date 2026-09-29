@@ -1,0 +1,6 @@
+  Frecuencia nominal = 50 Hz  
+  Fabricante = Synthetic Motors 007  
+  Tensión nominal = 110 V  
+  Potencia nominal = 375 W  
+  Número de pieza = FM007-A  
+  Serie = FM007  

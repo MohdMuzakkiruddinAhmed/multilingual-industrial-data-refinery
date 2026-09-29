@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 016; part number: FM016-A; family: FM016; voltage: 230/690 V; frequency: 50 Hz; power: 1500 W

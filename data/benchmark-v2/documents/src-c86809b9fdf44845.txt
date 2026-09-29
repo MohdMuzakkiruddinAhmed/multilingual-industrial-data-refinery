@@ -1,0 +1,6 @@
+  Serie = FM019  
+  Fabricante = Synthetic Motors 019  
+  Número de pieza = FM019-A  
+  Frecuencia nominal = 60 Hz  
+  Potencia nominal = 375 W  
+  Tensión nominal = 208 V  

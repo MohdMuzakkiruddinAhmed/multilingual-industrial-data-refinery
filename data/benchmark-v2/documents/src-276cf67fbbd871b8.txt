@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 002; part number: FM002-A; family: FM002; voltage: 0.11 kV; frequency: 50 Hz; power: 0.375 kW

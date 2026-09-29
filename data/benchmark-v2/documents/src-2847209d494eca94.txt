@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 012; referencia: FM012-B; familia: FM012; tensión: 240 V; frecuencia: 60 Hz; potencia: 125 W

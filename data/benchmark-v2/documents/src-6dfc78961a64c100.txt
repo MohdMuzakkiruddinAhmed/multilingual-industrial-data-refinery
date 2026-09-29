@@ -1,0 +1,6 @@
+  Hersteller = Synthetic Motors 023  
+  Nennspannung = 230 V  
+  Nennleistung = 1500 W  
+  Artikelnummer = FM023-A  
+  Nennfrequenz = 60 Hz  
+  Baureihe = FM023  

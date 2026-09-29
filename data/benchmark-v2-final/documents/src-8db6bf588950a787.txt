@@ -1,0 +1,1 @@
+fabricante: Other Demo 7; referencia: FM007-X; familia: OTHER7; tensión: 110 V; frecuencia: 50 Hz; potencia: 375 W

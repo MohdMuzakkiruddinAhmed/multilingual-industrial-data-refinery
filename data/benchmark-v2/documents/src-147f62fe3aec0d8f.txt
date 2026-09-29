@@ -1,0 +1,1 @@
+fabricante: Other Demo 22; referencia: FM022-X; familia: OTHER22; tensión: 400 V; frecuencia: 60 Hz; potencia: 1500 W

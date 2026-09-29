@@ -1,0 +1,1 @@
+El motor de la serie FM008 de Synthetic Motors 008 tiene la referencia FM008-A. Funciona a 400 V y 60 Hz, con una potencia de 11000 W.

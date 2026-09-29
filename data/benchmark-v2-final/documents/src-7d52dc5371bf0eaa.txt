@@ -1,0 +1,1 @@
+fabricante: Other Demo 5; referencia: FM005-X; familia: OTHER5; tensión: 208 V; frecuencia: 50 Hz; potencia: 5500 W

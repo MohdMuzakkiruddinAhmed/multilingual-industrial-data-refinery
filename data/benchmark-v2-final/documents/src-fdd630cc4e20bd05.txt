@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 020; part number: FM020-A; family: FM020; voltage: 208 V; frequency: 60 Hz; power: 7500 W

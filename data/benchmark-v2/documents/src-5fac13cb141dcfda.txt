@@ -1,0 +1,6 @@
+  Manufacturer = Synthetic Motors 015  
+  Rated voltage = 400 V  
+  Series = FM015  
+  MPN = FM015-A  
+  Rated power = 7500 W  
+  Rated frequency = 60 Hz  

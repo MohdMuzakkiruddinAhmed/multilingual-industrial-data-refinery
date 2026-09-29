@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 008; referencia: FM008-A; familia: FM008; tensión: 0,4 kV; frecuencia: 60 Hz; potencia: 11 kW

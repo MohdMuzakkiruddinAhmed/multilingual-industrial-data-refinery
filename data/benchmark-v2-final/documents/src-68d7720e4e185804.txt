@@ -1,0 +1,1 @@
+fabricante: Other Demo 20; referencia: FM020-X; familia: OTHER20; tensión: 208 V; frecuencia: 60 Hz; potencia: 7500 W

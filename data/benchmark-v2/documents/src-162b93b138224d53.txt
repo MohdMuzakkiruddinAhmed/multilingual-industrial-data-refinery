@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 003; referencia: FM003-A; familia: FM003; tensión: 460/690 V; frecuencia: 60 Hz; potencia: 750 W

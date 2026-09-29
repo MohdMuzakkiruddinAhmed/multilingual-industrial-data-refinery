@@ -1,0 +1,1 @@
+manufacturer: Other Demo 14; part number: FM014-X; family: OTHER14; voltage: 460 V; frequency: 50 Hz; power: 7500 W

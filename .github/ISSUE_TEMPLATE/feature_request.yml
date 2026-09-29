@@ -1,0 +1,23 @@
+name: Improvement proposal
+description: Propose a focused capability, experiment, or documentation improvement.
+title: "[Proposal]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or research question
+      description: Explain the use case or limitation this addresses.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change
+      description: Describe the intended behavior and any evidence boundaries it affects.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: How to evaluate it
+      description: Suggest synthetic cases, measurements, or acceptance criteria.

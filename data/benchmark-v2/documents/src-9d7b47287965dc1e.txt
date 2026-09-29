@@ -1,0 +1,6 @@
+  Rated power = 375 W  
+  Series = FM002  
+  Rated voltage = 110 V  
+  Rated frequency = 50 Hz  
+  Manufacturer = Synthetic Motors 002  
+  MPN = FM002-A  

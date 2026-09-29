@@ -1,0 +1,6 @@
+  Frecuencia nominal = 60 Hz  
+  Tensión nominal = 208 V  
+  Fabricante = Synthetic Motors 006  
+  Número de pieza = FM006-A  
+  Serie = FM006  
+  Potencia nominal = 11000 W  

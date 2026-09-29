@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 004; part number: FM004-A; family: FM004; voltage: 460 V; frequency: 50 Hz; power: 375 W; certification: TEST-CERT-MX-FM004

@@ -1,0 +1,1 @@
+manufacturer: Other Demo 5; part number: FM005-X; family: OTHER5; voltage: 208 V; frequency: 50 Hz; power: 5500 W

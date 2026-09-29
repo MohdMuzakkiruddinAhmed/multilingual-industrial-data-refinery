@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 017; part number: FM017-A; family: FM017; voltage: 0.208 kV; frequency: 60 Hz; power: 1.5 kW

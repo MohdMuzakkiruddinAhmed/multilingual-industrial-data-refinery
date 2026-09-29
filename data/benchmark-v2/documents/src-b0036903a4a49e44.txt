@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 014; referencia: FM014-A; familia: FM014; tensión: 0,46 kV; frecuencia: 50 Hz; potencia: 7,5 kW

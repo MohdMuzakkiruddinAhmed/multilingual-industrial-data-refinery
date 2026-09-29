@@ -1,0 +1,1 @@
+El motor de la serie FM009 de Synthetic Motors 009 tiene la referencia FM009-A. Funciona a 208 V y 60 Hz, con una potencia de 750 W.

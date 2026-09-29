@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 010; part number: FM010-A; family: FM010; voltage: 208/690 V; frequency: 60 Hz; power: 2200 W

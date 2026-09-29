@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-27T22:17:25.887803+00:00",
+  "dataset_sha256": "5cb5be7a062b453c4071c5f15314641fb7a78886c1798664e586ad19cd5cb0a5",
+  "oracle_sha256": "fd3961fa973ade0f46cdd89b2d6a59f505f5fcd18284dd7960fda962f7d30d0f",
+  "code_sha256": "3189a528d7bb1248b76db722da2aa7856b20501897ebe132af91c71bdd23158e",
+  "python": "3.12.10",
+  "prompt_version": "extract-v3",
+  "prompt_sha256": "878ebfd0dd539c2fd2da51725a460acf4e4696eb19f0e774284ce0c396cea026",
+  "split": "dev",
+  "per_stratum": 1,
+  "case_ids": [
+    "case-264f4b808452",
+    "case-e916ed297c83",
+    "case-cbe260e74542",
+    "case-5699a5c3537e",
+    "case-ca55df1051d2",
+    "case-0589ed636d17",
+    "case-6136a7bd6e34",
+    "case-66b80c2ff053"
+  ],
+  "groups": [
+    "FM001",
+    "FM004",
+    "FM011",
+    "FM012",
+    "FM021",
+    "FM022"
+  ],
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "max_calls": 30,
+  "timeout": 20,
+  "live": true,
+  "comparison": "Same first NIM response shared between single-pass and conditional arms; no oracle supplied to models.",
+  "workflow_versions": {
+    "rules": "v2",
+    "nim_single_pass": "one extraction + deterministic checks",
+    "nim_conditional": "shared extraction + at most one repair + advisory review if blocked"
+  },
+  "limits": [
+    "Synthetic templates shared across group-disjoint splits; not a template-generalization test.",
+    "Narrative cases deliberately measure the current evidence verifier's coverage limit.",
+    "No foundation model training is performed; train split reserved for future work.",
+    "Language phrasing requires independent bilingual validation before publication."
+  ]
+}

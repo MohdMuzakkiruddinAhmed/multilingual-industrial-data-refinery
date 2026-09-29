@@ -1,0 +1,1489 @@
+[
+  {
+    "record_id": "product-f9f37191af3187c5",
+    "state": "published",
+    "simulation": true,
+    "view": {
+      "market": "en-US",
+      "language": "en",
+      "locale": "en-US",
+      "profile_version": "demo-market-v1",
+      "terminology_version": "motor-terms-v1",
+      "title": "Electric motor",
+      "direction": "ltr",
+      "canonical_record_id": "product-f9f37191af3187c5",
+      "canonical_sha256": "7c1044f93a32da3ca418853b78a9915505dc3794166ab36fff82be5019030011",
+      "rows": [
+        {
+          "field": "manufacturer",
+          "label": "manufacturer",
+          "display": "Aster Demo",
+          "canonical_value": "Aster Demo",
+          "unit": null,
+          "evidence_ids": [
+            "en-1"
+          ]
+        },
+        {
+          "field": "part_number",
+          "label": "part number",
+          "display": "AX-230",
+          "canonical_value": "AX-230",
+          "unit": null,
+          "evidence_ids": [
+            "en-1"
+          ]
+        },
+        {
+          "field": "family",
+          "label": "family",
+          "display": "AX",
+          "canonical_value": "AX",
+          "unit": null,
+          "evidence_ids": [
+            "en-1"
+          ]
+        },
+        {
+          "field": "voltage",
+          "label": "voltage",
+          "display": "230 V",
+          "canonical_value": "230",
+          "unit": "V",
+          "evidence_ids": [
+            "en-1"
+          ]
+        },
+        {
+          "field": "frequency",
+          "label": "frequency",
+          "display": "50 Hz",
+          "canonical_value": "50",
+          "unit": "Hz",
+          "evidence_ids": [
+            "en-1"
+          ]
+        },
+        {
+          "field": "power",
+          "label": "power",
+          "display": "1500 W",
+          "canonical_value": "1500",
+          "unit": "W",
+          "evidence_ids": [
+            "en-1"
+          ]
+        }
+      ],
+      "missing_market_fields": [],
+      "state": "published"
+    },
+    "canonical_attributes": {
+      "manufacturer": {
+        "value": "Aster Demo",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "en-1",
+            "source_version": "1",
+            "source_sha256": "4fb6eb3883875baef8d9f9a8b8d1b6043175ac72d833ce7752d3d3259d17a09d",
+            "location": {
+              "document": "en-1.txt",
+              "page": 1
+            },
+            "quote": "manufacturer: Aster Demo",
+            "start": 0,
+            "end": 24,
+            "original_value": "Aster Demo",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "part_number": {
+        "value": "AX-230",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "en-1",
+            "source_version": "1",
+            "source_sha256": "4fb6eb3883875baef8d9f9a8b8d1b6043175ac72d833ce7752d3d3259d17a09d",
+            "location": {
+              "document": "en-1.txt",
+              "page": 1
+            },
+            "quote": "part number: AX-230",
+            "start": 26,
+            "end": 45,
+            "original_value": "AX-230",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "family": {
+        "value": "AX",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "en-1",
+            "source_version": "1",
+            "source_sha256": "4fb6eb3883875baef8d9f9a8b8d1b6043175ac72d833ce7752d3d3259d17a09d",
+            "location": {
+              "document": "en-1.txt",
+              "page": 1
+            },
+            "quote": "family: AX",
+            "start": 47,
+            "end": 57,
+            "original_value": "AX",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "voltage": {
+        "value": "230",
+        "unit": "V",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "en-1",
+            "source_version": "1",
+            "source_sha256": "4fb6eb3883875baef8d9f9a8b8d1b6043175ac72d833ce7752d3d3259d17a09d",
+            "location": {
+              "document": "en-1.txt",
+              "page": 1
+            },
+            "quote": "voltage: 230 V",
+            "start": 59,
+            "end": 73,
+            "original_value": "230 V",
+            "rule": "decimal-exact:V->V:multiply-1"
+          }
+        ]
+      },
+      "frequency": {
+        "value": "50",
+        "unit": "Hz",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "en-1",
+            "source_version": "1",
+            "source_sha256": "4fb6eb3883875baef8d9f9a8b8d1b6043175ac72d833ce7752d3d3259d17a09d",
+            "location": {
+              "document": "en-1.txt",
+              "page": 1
+            },
+            "quote": "frequency: 50 Hz",
+            "start": 75,
+            "end": 91,
+            "original_value": "50 Hz",
+            "rule": "decimal-exact:Hz->Hz:multiply-1"
+          }
+        ]
+      },
+      "power": {
+        "value": "1500",
+        "unit": "W",
+        "status": "derived",
+        "evidence": [
+          {
+            "source_id": "en-1",
+            "source_version": "1",
+            "source_sha256": "4fb6eb3883875baef8d9f9a8b8d1b6043175ac72d833ce7752d3d3259d17a09d",
+            "location": {
+              "document": "en-1.txt",
+              "page": 1
+            },
+            "quote": "power: 1.5 kW",
+            "start": 93,
+            "end": 106,
+            "original_value": "1.5 kW",
+            "rule": "decimal-exact:kW->W:multiply-1000"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "record_id": "product-f9f37191af3187c5",
+    "state": "published",
+    "simulation": true,
+    "view": {
+      "market": "de-DE",
+      "language": "de",
+      "locale": "de-DE",
+      "profile_version": "demo-market-v1",
+      "terminology_version": "motor-terms-v1",
+      "title": "Elektromotor",
+      "direction": "ltr",
+      "canonical_record_id": "product-f9f37191af3187c5",
+      "canonical_sha256": "21f13035bfff351ea0ae7b8f9666f030864b6824760023fe77456c3e9405442c",
+      "rows": [
+        {
+          "field": "manufacturer",
+          "label": "hersteller",
+          "display": "Aster Demo",
+          "canonical_value": "Aster Demo",
+          "unit": null,
+          "evidence_ids": [
+            "de-1"
+          ]
+        },
+        {
+          "field": "part_number",
+          "label": "teilenummer",
+          "display": "AX-230",
+          "canonical_value": "AX-230",
+          "unit": null,
+          "evidence_ids": [
+            "de-1"
+          ]
+        },
+        {
+          "field": "family",
+          "label": "familie",
+          "display": "AX",
+          "canonical_value": "AX",
+          "unit": null,
+          "evidence_ids": [
+            "de-1"
+          ]
+        },
+        {
+          "field": "voltage",
+          "label": "spannung",
+          "display": "230 V",
+          "canonical_value": "230",
+          "unit": "V",
+          "evidence_ids": [
+            "de-1"
+          ]
+        },
+        {
+          "field": "frequency",
+          "label": "frequenz",
+          "display": "50 Hz",
+          "canonical_value": "50",
+          "unit": "Hz",
+          "evidence_ids": [
+            "de-1"
+          ]
+        },
+        {
+          "field": "power",
+          "label": "leistung",
+          "display": "1500 W",
+          "canonical_value": "1500",
+          "unit": "W",
+          "evidence_ids": [
+            "de-1"
+          ]
+        }
+      ],
+      "missing_market_fields": [],
+      "state": "published"
+    },
+    "canonical_attributes": {
+      "manufacturer": {
+        "value": "Aster Demo",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "de-1",
+            "source_version": "1",
+            "source_sha256": "6468197dbb795f82764a58370719558ac4848ed12a68c9e3bf5e0c3f204a9516",
+            "location": {
+              "document": "de-1.txt",
+              "page": 1
+            },
+            "quote": "hersteller: Aster Demo",
+            "start": 0,
+            "end": 22,
+            "original_value": "Aster Demo",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "part_number": {
+        "value": "AX-230",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "de-1",
+            "source_version": "1",
+            "source_sha256": "6468197dbb795f82764a58370719558ac4848ed12a68c9e3bf5e0c3f204a9516",
+            "location": {
+              "document": "de-1.txt",
+              "page": 1
+            },
+            "quote": "teilenummer: AX-230",
+            "start": 24,
+            "end": 43,
+            "original_value": "AX-230",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "family": {
+        "value": "AX",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "de-1",
+            "source_version": "1",
+            "source_sha256": "6468197dbb795f82764a58370719558ac4848ed12a68c9e3bf5e0c3f204a9516",
+            "location": {
+              "document": "de-1.txt",
+              "page": 1
+            },
+            "quote": "familie: AX",
+            "start": 45,
+            "end": 56,
+            "original_value": "AX",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "voltage": {
+        "value": "230",
+        "unit": "V",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "de-1",
+            "source_version": "1",
+            "source_sha256": "6468197dbb795f82764a58370719558ac4848ed12a68c9e3bf5e0c3f204a9516",
+            "location": {
+              "document": "de-1.txt",
+              "page": 1
+            },
+            "quote": "spannung: 230 V",
+            "start": 58,
+            "end": 73,
+            "original_value": "230 V",
+            "rule": "decimal-exact:V->V:multiply-1"
+          }
+        ]
+      },
+      "frequency": {
+        "value": "50",
+        "unit": "Hz",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "de-1",
+            "source_version": "1",
+            "source_sha256": "6468197dbb795f82764a58370719558ac4848ed12a68c9e3bf5e0c3f204a9516",
+            "location": {
+              "document": "de-1.txt",
+              "page": 1
+            },
+            "quote": "frequenz: 50 Hz",
+            "start": 75,
+            "end": 90,
+            "original_value": "50 Hz",
+            "rule": "decimal-exact:Hz->Hz:multiply-1"
+          }
+        ]
+      },
+      "power": {
+        "value": "1500",
+        "unit": "W",
+        "status": "derived",
+        "evidence": [
+          {
+            "source_id": "de-1",
+            "source_version": "1",
+            "source_sha256": "6468197dbb795f82764a58370719558ac4848ed12a68c9e3bf5e0c3f204a9516",
+            "location": {
+              "document": "de-1.txt",
+              "page": 1
+            },
+            "quote": "leistung: 1,5 kW",
+            "start": 92,
+            "end": 108,
+            "original_value": "1,5 kW",
+            "rule": "decimal-exact:kW->W:multiply-1000"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "record_id": "product-f9f37191af3187c5",
+    "state": "published",
+    "simulation": true,
+    "view": {
+      "market": "es-ES",
+      "language": "es",
+      "locale": "es-ES",
+      "profile_version": "demo-market-v1",
+      "terminology_version": "motor-terms-v1",
+      "title": "Motor eléctrico",
+      "direction": "ltr",
+      "canonical_record_id": "product-f9f37191af3187c5",
+      "canonical_sha256": "c46a7486b7dac2461df47e3363ad487a1fea025dc939934699c193e182dd204c",
+      "rows": [
+        {
+          "field": "manufacturer",
+          "label": "fabricante",
+          "display": "Aster Demo",
+          "canonical_value": "Aster Demo",
+          "unit": null,
+          "evidence_ids": [
+            "es-1"
+          ]
+        },
+        {
+          "field": "part_number",
+          "label": "referencia",
+          "display": "AX-230",
+          "canonical_value": "AX-230",
+          "unit": null,
+          "evidence_ids": [
+            "es-1"
+          ]
+        },
+        {
+          "field": "family",
+          "label": "familia",
+          "display": "AX",
+          "canonical_value": "AX",
+          "unit": null,
+          "evidence_ids": [
+            "es-1"
+          ]
+        },
+        {
+          "field": "voltage",
+          "label": "tensión",
+          "display": "230 V",
+          "canonical_value": "230",
+          "unit": "V",
+          "evidence_ids": [
+            "es-1"
+          ]
+        },
+        {
+          "field": "frequency",
+          "label": "frecuencia",
+          "display": "50 Hz",
+          "canonical_value": "50",
+          "unit": "Hz",
+          "evidence_ids": [
+            "es-1"
+          ]
+        },
+        {
+          "field": "power",
+          "label": "potencia",
+          "display": "1500 W",
+          "canonical_value": "1500",
+          "unit": "W",
+          "evidence_ids": [
+            "es-1"
+          ]
+        }
+      ],
+      "missing_market_fields": [],
+      "state": "published"
+    },
+    "canonical_attributes": {
+      "manufacturer": {
+        "value": "Aster Demo",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "es-1",
+            "source_version": "1",
+            "source_sha256": "795eb3a9dbbd52cc14d229d317cb8e38df4169ffe7acdd5678a2d0e0b0bafee7",
+            "location": {
+              "document": "es-1.txt",
+              "page": 1
+            },
+            "quote": "fabricante: Aster Demo",
+            "start": 0,
+            "end": 22,
+            "original_value": "Aster Demo",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "part_number": {
+        "value": "AX-230",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "es-1",
+            "source_version": "1",
+            "source_sha256": "795eb3a9dbbd52cc14d229d317cb8e38df4169ffe7acdd5678a2d0e0b0bafee7",
+            "location": {
+              "document": "es-1.txt",
+              "page": 1
+            },
+            "quote": "referencia: AX-230",
+            "start": 24,
+            "end": 42,
+            "original_value": "AX-230",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "family": {
+        "value": "AX",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "es-1",
+            "source_version": "1",
+            "source_sha256": "795eb3a9dbbd52cc14d229d317cb8e38df4169ffe7acdd5678a2d0e0b0bafee7",
+            "location": {
+              "document": "es-1.txt",
+              "page": 1
+            },
+            "quote": "familia: AX",
+            "start": 44,
+            "end": 55,
+            "original_value": "AX",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "voltage": {
+        "value": "230",
+        "unit": "V",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "es-1",
+            "source_version": "1",
+            "source_sha256": "795eb3a9dbbd52cc14d229d317cb8e38df4169ffe7acdd5678a2d0e0b0bafee7",
+            "location": {
+              "document": "es-1.txt",
+              "page": 1
+            },
+            "quote": "tensión: 230 V",
+            "start": 57,
+            "end": 71,
+            "original_value": "230 V",
+            "rule": "decimal-exact:V->V:multiply-1"
+          }
+        ]
+      },
+      "frequency": {
+        "value": "50",
+        "unit": "Hz",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "es-1",
+            "source_version": "1",
+            "source_sha256": "795eb3a9dbbd52cc14d229d317cb8e38df4169ffe7acdd5678a2d0e0b0bafee7",
+            "location": {
+              "document": "es-1.txt",
+              "page": 1
+            },
+            "quote": "frecuencia: 50 Hz",
+            "start": 73,
+            "end": 90,
+            "original_value": "50 Hz",
+            "rule": "decimal-exact:Hz->Hz:multiply-1"
+          }
+        ]
+      },
+      "power": {
+        "value": "1500",
+        "unit": "W",
+        "status": "derived",
+        "evidence": [
+          {
+            "source_id": "es-1",
+            "source_version": "1",
+            "source_sha256": "795eb3a9dbbd52cc14d229d317cb8e38df4169ffe7acdd5678a2d0e0b0bafee7",
+            "location": {
+              "document": "es-1.txt",
+              "page": 1
+            },
+            "quote": "potencia: 1.5 kW",
+            "start": 92,
+            "end": 108,
+            "original_value": "1.5 kW",
+            "rule": "decimal-exact:kW->W:multiply-1000"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "record_id": "product-ed25bc82636d61e0",
+    "state": "published",
+    "simulation": true,
+    "view": {
+      "market": "en-US",
+      "language": "en",
+      "locale": "en-US",
+      "profile_version": "demo-market-v1",
+      "terminology_version": "motor-terms-v1",
+      "title": "Electric motor",
+      "direction": "ltr",
+      "canonical_record_id": "product-ed25bc82636d61e0",
+      "canonical_sha256": "7eead96e2a5d7bdda3f5da634642045963536f8b03a9b3273bc03208b7925d8f",
+      "rows": [
+        {
+          "field": "manufacturer",
+          "label": "manufacturer",
+          "display": "Aster Demo",
+          "canonical_value": "Aster Demo",
+          "unit": null,
+          "evidence_ids": [
+            "variant-1"
+          ]
+        },
+        {
+          "field": "part_number",
+          "label": "part number",
+          "display": "AX-110",
+          "canonical_value": "AX-110",
+          "unit": null,
+          "evidence_ids": [
+            "variant-1"
+          ]
+        },
+        {
+          "field": "family",
+          "label": "family",
+          "display": "AX",
+          "canonical_value": "AX",
+          "unit": null,
+          "evidence_ids": [
+            "variant-1"
+          ]
+        },
+        {
+          "field": "voltage",
+          "label": "voltage",
+          "display": "110 V",
+          "canonical_value": "110",
+          "unit": "V",
+          "evidence_ids": [
+            "variant-1"
+          ]
+        },
+        {
+          "field": "frequency",
+          "label": "frequency",
+          "display": "60 Hz",
+          "canonical_value": "60",
+          "unit": "Hz",
+          "evidence_ids": [
+            "variant-1"
+          ]
+        },
+        {
+          "field": "power",
+          "label": "power",
+          "display": "1500 W",
+          "canonical_value": "1500",
+          "unit": "W",
+          "evidence_ids": [
+            "variant-1"
+          ]
+        }
+      ],
+      "missing_market_fields": [],
+      "state": "published"
+    },
+    "canonical_attributes": {
+      "manufacturer": {
+        "value": "Aster Demo",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "variant-1",
+            "source_version": "1",
+            "source_sha256": "63c682c4a9000ac16d8b397a465be2f829a8a93d6b7a68f7465a17af08ecbd57",
+            "location": {
+              "document": "variant-1.txt",
+              "page": 1
+            },
+            "quote": "manufacturer: Aster Demo",
+            "start": 0,
+            "end": 24,
+            "original_value": "Aster Demo",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "part_number": {
+        "value": "AX-110",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "variant-1",
+            "source_version": "1",
+            "source_sha256": "63c682c4a9000ac16d8b397a465be2f829a8a93d6b7a68f7465a17af08ecbd57",
+            "location": {
+              "document": "variant-1.txt",
+              "page": 1
+            },
+            "quote": "part number: AX-110",
+            "start": 26,
+            "end": 45,
+            "original_value": "AX-110",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "family": {
+        "value": "AX",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "variant-1",
+            "source_version": "1",
+            "source_sha256": "63c682c4a9000ac16d8b397a465be2f829a8a93d6b7a68f7465a17af08ecbd57",
+            "location": {
+              "document": "variant-1.txt",
+              "page": 1
+            },
+            "quote": "family: AX",
+            "start": 47,
+            "end": 57,
+            "original_value": "AX",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "voltage": {
+        "value": "110",
+        "unit": "V",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "variant-1",
+            "source_version": "1",
+            "source_sha256": "63c682c4a9000ac16d8b397a465be2f829a8a93d6b7a68f7465a17af08ecbd57",
+            "location": {
+              "document": "variant-1.txt",
+              "page": 1
+            },
+            "quote": "voltage: 110 V",
+            "start": 59,
+            "end": 73,
+            "original_value": "110 V",
+            "rule": "decimal-exact:V->V:multiply-1"
+          }
+        ]
+      },
+      "frequency": {
+        "value": "60",
+        "unit": "Hz",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "variant-1",
+            "source_version": "1",
+            "source_sha256": "63c682c4a9000ac16d8b397a465be2f829a8a93d6b7a68f7465a17af08ecbd57",
+            "location": {
+              "document": "variant-1.txt",
+              "page": 1
+            },
+            "quote": "frequency: 60 Hz",
+            "start": 75,
+            "end": 91,
+            "original_value": "60 Hz",
+            "rule": "decimal-exact:Hz->Hz:multiply-1"
+          }
+        ]
+      },
+      "power": {
+        "value": "1500",
+        "unit": "W",
+        "status": "derived",
+        "evidence": [
+          {
+            "source_id": "variant-1",
+            "source_version": "1",
+            "source_sha256": "63c682c4a9000ac16d8b397a465be2f829a8a93d6b7a68f7465a17af08ecbd57",
+            "location": {
+              "document": "variant-1.txt",
+              "page": 1
+            },
+            "quote": "power: 1.5 kW",
+            "start": 93,
+            "end": 106,
+            "original_value": "1.5 kW",
+            "rule": "decimal-exact:kW->W:multiply-1000"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "record_id": "product-f9f37191af3187c5",
+    "state": "published",
+    "simulation": true,
+    "view": {
+      "market": "en-US",
+      "language": "en",
+      "locale": "en-US",
+      "profile_version": "demo-market-v1",
+      "terminology_version": "motor-terms-v1",
+      "title": "Electric motor",
+      "direction": "ltr",
+      "canonical_record_id": "product-f9f37191af3187c5",
+      "canonical_sha256": "2d7c31bb3c25608fc10e27371bc44dd6987681f155733e101ef4a8e996f1f758",
+      "rows": [
+        {
+          "field": "manufacturer",
+          "label": "manufacturer",
+          "display": "Aster Demo",
+          "canonical_value": "Aster Demo",
+          "unit": null,
+          "evidence_ids": [
+            "new-1"
+          ]
+        },
+        {
+          "field": "part_number",
+          "label": "part number",
+          "display": "AX-230",
+          "canonical_value": "AX-230",
+          "unit": null,
+          "evidence_ids": [
+            "new-1"
+          ]
+        },
+        {
+          "field": "family",
+          "label": "family",
+          "display": "AX",
+          "canonical_value": "AX",
+          "unit": null,
+          "evidence_ids": [
+            "new-1"
+          ]
+        },
+        {
+          "field": "voltage",
+          "label": "voltage",
+          "display": "230 V",
+          "canonical_value": "230",
+          "unit": "V",
+          "evidence_ids": [
+            "new-1"
+          ]
+        },
+        {
+          "field": "frequency",
+          "label": "frequency",
+          "display": "50 Hz",
+          "canonical_value": "50",
+          "unit": "Hz",
+          "evidence_ids": [
+            "new-1"
+          ]
+        },
+        {
+          "field": "power",
+          "label": "power",
+          "display": "1500 W",
+          "canonical_value": "1500",
+          "unit": "W",
+          "evidence_ids": [
+            "new-1"
+          ]
+        }
+      ],
+      "missing_market_fields": [],
+      "state": "published"
+    },
+    "canonical_attributes": {
+      "manufacturer": {
+        "value": "Aster Demo",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "new-1",
+            "source_version": "1",
+            "source_sha256": "bf15cfe7320333434cc151d8cbb6dd0cbe9a1f8cf9b43f1fed964c30ec53799c",
+            "location": {
+              "document": "new-1.txt",
+              "page": 1
+            },
+            "quote": "manufacturer: Aster Demo",
+            "start": 0,
+            "end": 24,
+            "original_value": "Aster Demo",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "part_number": {
+        "value": "AX-230",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "new-1",
+            "source_version": "1",
+            "source_sha256": "bf15cfe7320333434cc151d8cbb6dd0cbe9a1f8cf9b43f1fed964c30ec53799c",
+            "location": {
+              "document": "new-1.txt",
+              "page": 1
+            },
+            "quote": "part number: AX-230",
+            "start": 26,
+            "end": 45,
+            "original_value": "AX-230",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "family": {
+        "value": "AX",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "new-1",
+            "source_version": "1",
+            "source_sha256": "bf15cfe7320333434cc151d8cbb6dd0cbe9a1f8cf9b43f1fed964c30ec53799c",
+            "location": {
+              "document": "new-1.txt",
+              "page": 1
+            },
+            "quote": "family: AX",
+            "start": 47,
+            "end": 57,
+            "original_value": "AX",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "voltage": {
+        "value": "230",
+        "unit": "V",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "new-1",
+            "source_version": "1",
+            "source_sha256": "bf15cfe7320333434cc151d8cbb6dd0cbe9a1f8cf9b43f1fed964c30ec53799c",
+            "location": {
+              "document": "new-1.txt",
+              "page": 1
+            },
+            "quote": "voltage: 230 V",
+            "start": 59,
+            "end": 73,
+            "original_value": "230 V",
+            "rule": "decimal-exact:V->V:multiply-1"
+          }
+        ]
+      },
+      "frequency": {
+        "value": "50",
+        "unit": "Hz",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "new-1",
+            "source_version": "1",
+            "source_sha256": "bf15cfe7320333434cc151d8cbb6dd0cbe9a1f8cf9b43f1fed964c30ec53799c",
+            "location": {
+              "document": "new-1.txt",
+              "page": 1
+            },
+            "quote": "frequency: 50 Hz",
+            "start": 75,
+            "end": 91,
+            "original_value": "50 Hz",
+            "rule": "decimal-exact:Hz->Hz:multiply-1"
+          }
+        ]
+      },
+      "power": {
+        "value": "1500",
+        "unit": "W",
+        "status": "derived",
+        "evidence": [
+          {
+            "source_id": "new-1",
+            "source_version": "1",
+            "source_sha256": "bf15cfe7320333434cc151d8cbb6dd0cbe9a1f8cf9b43f1fed964c30ec53799c",
+            "location": {
+              "document": "new-1.txt",
+              "page": 1
+            },
+            "quote": "power: 1.5 kW",
+            "start": 93,
+            "end": 106,
+            "original_value": "1.5 kW",
+            "rule": "decimal-exact:kW->W:multiply-1000"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "record_id": "product-f9f37191af3187c5",
+    "state": "published",
+    "simulation": true,
+    "view": {
+      "market": "es-MX",
+      "language": "es",
+      "locale": "es-MX",
+      "profile_version": "demo-market-v1",
+      "terminology_version": "motor-terms-v1",
+      "title": "Motor eléctrico",
+      "direction": "ltr",
+      "canonical_record_id": "product-f9f37191af3187c5",
+      "canonical_sha256": "a7f5d090cb675bd755150eac715abac8f537bcb5f60609eed0061def65f94582",
+      "rows": [
+        {
+          "field": "manufacturer",
+          "label": "fabricante",
+          "display": "Aster Demo",
+          "canonical_value": "Aster Demo",
+          "unit": null,
+          "evidence_ids": [
+            "mx-2"
+          ]
+        },
+        {
+          "field": "part_number",
+          "label": "referencia",
+          "display": "AX-230",
+          "canonical_value": "AX-230",
+          "unit": null,
+          "evidence_ids": [
+            "mx-2"
+          ]
+        },
+        {
+          "field": "family",
+          "label": "familia",
+          "display": "AX",
+          "canonical_value": "AX",
+          "unit": null,
+          "evidence_ids": [
+            "mx-2"
+          ]
+        },
+        {
+          "field": "voltage",
+          "label": "tensión",
+          "display": "230 V",
+          "canonical_value": "230",
+          "unit": "V",
+          "evidence_ids": [
+            "mx-2"
+          ]
+        },
+        {
+          "field": "frequency",
+          "label": "frecuencia",
+          "display": "50 Hz",
+          "canonical_value": "50",
+          "unit": "Hz",
+          "evidence_ids": [
+            "mx-2"
+          ]
+        },
+        {
+          "field": "power",
+          "label": "potencia",
+          "display": "1500 W",
+          "canonical_value": "1500",
+          "unit": "W",
+          "evidence_ids": [
+            "mx-2"
+          ]
+        },
+        {
+          "field": "certification",
+          "label": "certificación",
+          "display": "TEST-CERT-MX-001",
+          "canonical_value": "TEST-CERT-MX-001",
+          "unit": null,
+          "evidence_ids": [
+            "mx-2"
+          ]
+        }
+      ],
+      "missing_market_fields": [],
+      "state": "published"
+    },
+    "canonical_attributes": {
+      "manufacturer": {
+        "value": "Aster Demo",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "mx-2",
+            "source_version": "1",
+            "source_sha256": "c09b6c75a500bbcac0e322df2bef3a1ccfeaf64cafc5565ba04a6b6c12f2fc55",
+            "location": {
+              "document": "mx-2.txt",
+              "page": 1
+            },
+            "quote": "fabricante: Aster Demo",
+            "start": 0,
+            "end": 22,
+            "original_value": "Aster Demo",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "part_number": {
+        "value": "AX-230",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "mx-2",
+            "source_version": "1",
+            "source_sha256": "c09b6c75a500bbcac0e322df2bef3a1ccfeaf64cafc5565ba04a6b6c12f2fc55",
+            "location": {
+              "document": "mx-2.txt",
+              "page": 1
+            },
+            "quote": "referencia: AX-230",
+            "start": 24,
+            "end": 42,
+            "original_value": "AX-230",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "family": {
+        "value": "AX",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "mx-2",
+            "source_version": "1",
+            "source_sha256": "c09b6c75a500bbcac0e322df2bef3a1ccfeaf64cafc5565ba04a6b6c12f2fc55",
+            "location": {
+              "document": "mx-2.txt",
+              "page": 1
+            },
+            "quote": "familia: AX",
+            "start": 44,
+            "end": 55,
+            "original_value": "AX",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "voltage": {
+        "value": "230",
+        "unit": "V",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "mx-2",
+            "source_version": "1",
+            "source_sha256": "c09b6c75a500bbcac0e322df2bef3a1ccfeaf64cafc5565ba04a6b6c12f2fc55",
+            "location": {
+              "document": "mx-2.txt",
+              "page": 1
+            },
+            "quote": "tensión: 230 V",
+            "start": 57,
+            "end": 71,
+            "original_value": "230 V",
+            "rule": "decimal-exact:V->V:multiply-1"
+          }
+        ]
+      },
+      "frequency": {
+        "value": "50",
+        "unit": "Hz",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "mx-2",
+            "source_version": "1",
+            "source_sha256": "c09b6c75a500bbcac0e322df2bef3a1ccfeaf64cafc5565ba04a6b6c12f2fc55",
+            "location": {
+              "document": "mx-2.txt",
+              "page": 1
+            },
+            "quote": "frecuencia: 50 Hz",
+            "start": 73,
+            "end": 90,
+            "original_value": "50 Hz",
+            "rule": "decimal-exact:Hz->Hz:multiply-1"
+          }
+        ]
+      },
+      "power": {
+        "value": "1500",
+        "unit": "W",
+        "status": "derived",
+        "evidence": [
+          {
+            "source_id": "mx-2",
+            "source_version": "1",
+            "source_sha256": "c09b6c75a500bbcac0e322df2bef3a1ccfeaf64cafc5565ba04a6b6c12f2fc55",
+            "location": {
+              "document": "mx-2.txt",
+              "page": 1
+            },
+            "quote": "potencia: 1.5 kW",
+            "start": 92,
+            "end": 108,
+            "original_value": "1.5 kW",
+            "rule": "decimal-exact:kW->W:multiply-1000"
+          }
+        ]
+      },
+      "certification": {
+        "value": "TEST-CERT-MX-001",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "mx-2",
+            "source_version": "1",
+            "source_sha256": "c09b6c75a500bbcac0e322df2bef3a1ccfeaf64cafc5565ba04a6b6c12f2fc55",
+            "location": {
+              "document": "mx-2.txt",
+              "page": 1
+            },
+            "quote": "certificación: TEST-CERT-MX-001",
+            "start": 110,
+            "end": 141,
+            "original_value": "TEST-CERT-MX-001",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "record_id": "product-51020135954727de",
+    "state": "published",
+    "simulation": true,
+    "view": {
+      "market": "en-US",
+      "language": "en",
+      "locale": "en-US",
+      "profile_version": "demo-market-v1",
+      "terminology_version": "motor-terms-v1",
+      "title": "Electric motor",
+      "direction": "ltr",
+      "canonical_record_id": "product-51020135954727de",
+      "canonical_sha256": "9123180650f35be3d59e30550af505ffb79be74b595fad0824699c954fdad48a",
+      "rows": [
+        {
+          "field": "manufacturer",
+          "label": "manufacturer",
+          "display": "Boreal Demo",
+          "canonical_value": "Boreal Demo",
+          "unit": null,
+          "evidence_ids": [
+            "different-1"
+          ]
+        },
+        {
+          "field": "part_number",
+          "label": "part number",
+          "display": "BZ-400",
+          "canonical_value": "BZ-400",
+          "unit": null,
+          "evidence_ids": [
+            "different-1"
+          ]
+        },
+        {
+          "field": "family",
+          "label": "family",
+          "display": "BZ",
+          "canonical_value": "BZ",
+          "unit": null,
+          "evidence_ids": [
+            "different-1"
+          ]
+        },
+        {
+          "field": "voltage",
+          "label": "voltage",
+          "display": "400 V",
+          "canonical_value": "400",
+          "unit": "V",
+          "evidence_ids": [
+            "different-1"
+          ]
+        },
+        {
+          "field": "frequency",
+          "label": "frequency",
+          "display": "50 Hz",
+          "canonical_value": "50",
+          "unit": "Hz",
+          "evidence_ids": [
+            "different-1"
+          ]
+        },
+        {
+          "field": "power",
+          "label": "power",
+          "display": "1500 W",
+          "canonical_value": "1500",
+          "unit": "W",
+          "evidence_ids": [
+            "different-1"
+          ]
+        }
+      ],
+      "missing_market_fields": [],
+      "state": "published"
+    },
+    "canonical_attributes": {
+      "manufacturer": {
+        "value": "Boreal Demo",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "different-1",
+            "source_version": "1",
+            "source_sha256": "5dca6c0fc324bdfc69f341d45ab6a5ad07f81f0ce44e1a417756ad2815abe1b8",
+            "location": {
+              "document": "different-1.txt",
+              "page": 1
+            },
+            "quote": "manufacturer: Boreal Demo",
+            "start": 0,
+            "end": 25,
+            "original_value": "Boreal Demo",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "part_number": {
+        "value": "BZ-400",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "different-1",
+            "source_version": "1",
+            "source_sha256": "5dca6c0fc324bdfc69f341d45ab6a5ad07f81f0ce44e1a417756ad2815abe1b8",
+            "location": {
+              "document": "different-1.txt",
+              "page": 1
+            },
+            "quote": "part number: BZ-400",
+            "start": 27,
+            "end": 46,
+            "original_value": "BZ-400",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "family": {
+        "value": "BZ",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "different-1",
+            "source_version": "1",
+            "source_sha256": "5dca6c0fc324bdfc69f341d45ab6a5ad07f81f0ce44e1a417756ad2815abe1b8",
+            "location": {
+              "document": "different-1.txt",
+              "page": 1
+            },
+            "quote": "family: BZ",
+            "start": 48,
+            "end": 58,
+            "original_value": "BZ",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "voltage": {
+        "value": "400",
+        "unit": "V",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "different-1",
+            "source_version": "1",
+            "source_sha256": "5dca6c0fc324bdfc69f341d45ab6a5ad07f81f0ce44e1a417756ad2815abe1b8",
+            "location": {
+              "document": "different-1.txt",
+              "page": 1
+            },
+            "quote": "voltage: 400 V",
+            "start": 60,
+            "end": 74,
+            "original_value": "400 V",
+            "rule": "decimal-exact:V->V:multiply-1"
+          }
+        ]
+      },
+      "frequency": {
+        "value": "50",
+        "unit": "Hz",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "different-1",
+            "source_version": "1",
+            "source_sha256": "5dca6c0fc324bdfc69f341d45ab6a5ad07f81f0ce44e1a417756ad2815abe1b8",
+            "location": {
+              "document": "different-1.txt",
+              "page": 1
+            },
+            "quote": "frequency: 50 Hz",
+            "start": 76,
+            "end": 92,
+            "original_value": "50 Hz",
+            "rule": "decimal-exact:Hz->Hz:multiply-1"
+          }
+        ]
+      },
+      "power": {
+        "value": "1500",
+        "unit": "W",
+        "status": "derived",
+        "evidence": [
+          {
+            "source_id": "different-1",
+            "source_version": "1",
+            "source_sha256": "5dca6c0fc324bdfc69f341d45ab6a5ad07f81f0ce44e1a417756ad2815abe1b8",
+            "location": {
+              "document": "different-1.txt",
+              "page": 1
+            },
+            "quote": "power: 1.5 kW",
+            "start": 94,
+            "end": 107,
+            "original_value": "1.5 kW",
+            "rule": "decimal-exact:kW->W:multiply-1000"
+          }
+        ]
+      }
+    }
+  }
+]

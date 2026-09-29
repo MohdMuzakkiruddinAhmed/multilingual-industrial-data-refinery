@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 017; referencia: FM017-A; familia: FM017; tensión: 218 V; frecuencia: 60 Hz; potencia: 1500 W

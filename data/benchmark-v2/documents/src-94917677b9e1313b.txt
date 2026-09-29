@@ -1,0 +1,1 @@
+manufacturer: Other Demo 20; part number: FM020-X; family: OTHER20; voltage: 208 V; frequency: 60 Hz; power: 7500 W

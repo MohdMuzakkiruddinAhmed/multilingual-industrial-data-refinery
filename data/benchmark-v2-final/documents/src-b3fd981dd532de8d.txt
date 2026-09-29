@@ -1,0 +1,6 @@
+  Serie = FM014  
+  Potencia nominal = 7500 W  
+  Tensión nominal = 460 V  
+  Frecuencia nominal = 50 Hz  
+  Número de pieza = FM014-A  
+  Fabricante = Synthetic Motors 014  

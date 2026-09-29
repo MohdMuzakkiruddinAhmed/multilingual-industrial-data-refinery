@@ -1,0 +1,6 @@
+  Rated voltage = 400 V  
+  Manufacturer = Synthetic Motors 018  
+  Rated power = 125 W  
+  Rated frequency = 50 Hz  
+  Series = FM018  
+  MPN = FM018-A  

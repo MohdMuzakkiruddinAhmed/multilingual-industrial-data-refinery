@@ -1,0 +1,33 @@
+# Credentials and local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+releases/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
+
+# Preserve bundled research outputs; ignore new local runs by default.
+outputs/*
+!outputs/README.md
+!outputs/offline/
+!outputs/nim/
+!outputs/nim-final/
+!outputs/nim-json-check/
+!outputs/nim-super/
+!outputs/nim-targeted-retry/
+!outputs/experiments/
+outputs/experiments/*
+!outputs/experiments/test-paired-nim/
+!outputs/experiments/test-rules-full/
+!outputs/experiments/dev-rules/
+!outputs/experiments/dev-nim-smoke/

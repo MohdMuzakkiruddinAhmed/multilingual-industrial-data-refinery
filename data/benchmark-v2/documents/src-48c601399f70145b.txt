@@ -1,0 +1,1 @@
+manufacturer: Other Demo 11; part number: FM011-X; family: OTHER11; voltage: 230 V; frequency: 60 Hz; power: 375 W

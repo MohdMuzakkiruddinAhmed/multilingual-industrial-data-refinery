@@ -1,0 +1,6 @@
+  Potencia nominal = 375 W  
+  Tensión nominal = 460 V  
+  Serie = FM004  
+  Número de pieza = FM004-A  
+  Fabricante = Synthetic Motors 004  
+  Frecuencia nominal = 50 Hz  

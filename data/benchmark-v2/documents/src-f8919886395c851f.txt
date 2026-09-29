@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 005; referencia: FM005-A; familia: FM005; tensión: 208 V; frecuencia: 50 Hz; potencia: 5500 W

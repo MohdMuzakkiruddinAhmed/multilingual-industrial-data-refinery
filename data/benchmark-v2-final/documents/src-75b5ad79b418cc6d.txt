@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 018; part number: FM018-B; family: FM018; voltage: 410 V; frequency: 50 Hz; power: 125 W

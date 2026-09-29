@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 022; referencia: FM022-A; familia: FM022; tensión: 400/690 V; frecuencia: 60 Hz; potencia: 1500 W

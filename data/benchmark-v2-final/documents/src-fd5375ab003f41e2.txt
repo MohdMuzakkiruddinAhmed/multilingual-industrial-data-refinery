@@ -1,0 +1,6 @@
+  Hersteller = Synthetic Motors 007  
+  Nennfrequenz = 50 Hz  
+  Artikelnummer = FM007-A  
+  Nennspannung = 110 V  
+  Nennleistung = 375 W  
+  Baureihe = FM007  

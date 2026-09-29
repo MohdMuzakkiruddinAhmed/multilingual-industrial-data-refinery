@@ -1,0 +1,1 @@
+fabricante: Other Demo 19; referencia: FM019-X; familia: OTHER19; tensión: 208 V; frecuencia: 60 Hz; potencia: 375 W

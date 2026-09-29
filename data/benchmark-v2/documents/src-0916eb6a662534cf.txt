@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 016; referencia: FM016-A; familia: FM016; tensión: 0,23 kV; frecuencia: 50 Hz; potencia: 1,5 kW

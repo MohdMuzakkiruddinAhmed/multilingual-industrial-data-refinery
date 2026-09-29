@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 015; referencia: FM015-A; familia: FM015; tensión: 400/690 V; frecuencia: 60 Hz; potencia: 7500 W

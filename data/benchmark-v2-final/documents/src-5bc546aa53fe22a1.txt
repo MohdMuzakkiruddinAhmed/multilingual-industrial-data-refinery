@@ -1,0 +1,1 @@
+El motor de la serie FM001 de Synthetic Motors 001 tiene la referencia FM001-A. Funciona a 230 V y 60 Hz, con una potencia de 375 W.

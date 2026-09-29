@@ -1,0 +1,6 @@
+  Series = FM004  
+  Rated frequency = 50 Hz  
+  Manufacturer = Synthetic Motors 004  
+  Rated voltage = 460 V  
+  MPN = FM004-A  
+  Rated power = 375 W  

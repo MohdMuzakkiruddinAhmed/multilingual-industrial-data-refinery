@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 007; referencia: FM007-A; familia: FM007; tensión: 0,11 kV; frecuencia: 50 Hz; potencia: 0,375 kW

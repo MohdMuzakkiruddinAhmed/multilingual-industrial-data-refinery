@@ -1,0 +1,6 @@
+  Nennspannung = 208 V  
+  Hersteller = Synthetic Motors 020  
+  Nennfrequenz = 60 Hz  
+  Baureihe = FM020  
+  Nennleistung = 7500 W  
+  Artikelnummer = FM020-A  

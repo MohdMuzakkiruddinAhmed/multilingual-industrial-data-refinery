@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 004; referencia: FM004-A; familia: FM004; tensión: 460 V; frecuencia: 50 Hz

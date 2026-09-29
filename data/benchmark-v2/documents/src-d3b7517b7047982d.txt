@@ -1,0 +1,1 @@
+fabricante: Other Demo 11; referencia: FM011-X; familia: OTHER11; tensión: 230 V; frecuencia: 60 Hz; potencia: 375 W

@@ -1,0 +1,6 @@
+  Frecuencia nominal = 50 Hz  
+  Fabricante = Synthetic Motors 013  
+  Número de pieza = FM013-A  
+  Serie = FM013  
+  Tensión nominal = 208 V  
+  Potencia nominal = 375 W  

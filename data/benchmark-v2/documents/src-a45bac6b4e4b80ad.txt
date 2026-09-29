@@ -1,0 +1,6 @@
+  Rated voltage = 208 V  
+  Manufacturer = Synthetic Motors 005  
+  Rated frequency = 50 Hz  
+  Series = FM005  
+  MPN = FM005-A  
+  Rated power = 5500 W  

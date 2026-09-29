@@ -1,0 +1,1 @@
+fabricante: Other Demo 9; referencia: FM009-X; familia: OTHER9; tensión: 208 V; frecuencia: 60 Hz; potencia: 750 W

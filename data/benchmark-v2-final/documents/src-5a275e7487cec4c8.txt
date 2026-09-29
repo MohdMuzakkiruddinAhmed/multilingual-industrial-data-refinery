@@ -1,0 +1,1 @@
+fabricante: Other Demo 0; referencia: FM000-X; familia: OTHER0; tensión: 460 V; frecuencia: 50 Hz; potencia: 375 W

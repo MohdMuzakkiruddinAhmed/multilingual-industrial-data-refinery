@@ -1,0 +1,6 @@
+  Frecuencia nominal = 60 Hz  
+  Tensión nominal = 400 V  
+  Serie = FM015  
+  Potencia nominal = 7500 W  
+  Número de pieza = FM015-A  
+  Fabricante = Synthetic Motors 015  

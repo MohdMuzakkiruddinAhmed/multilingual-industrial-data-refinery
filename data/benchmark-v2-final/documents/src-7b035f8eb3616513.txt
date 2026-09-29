@@ -1,0 +1,6 @@
+  Hersteller = Synthetic Motors 004  
+  Nennspannung = 460 V  
+  Nennleistung = 375 W  
+  Artikelnummer = FM004-A  
+  Nennfrequenz = 50 Hz  
+  Baureihe = FM004  

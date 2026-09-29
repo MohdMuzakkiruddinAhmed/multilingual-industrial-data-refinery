@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 021; referencia: FM021-A; familia: FM021; tensión: 400/690 V; frecuencia: 50 Hz; potencia: 7500 W

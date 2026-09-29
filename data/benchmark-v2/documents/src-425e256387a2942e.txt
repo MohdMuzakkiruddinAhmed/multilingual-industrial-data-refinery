@@ -1,0 +1,1 @@
+Hersteller: Other Demo 1; Teilenummer: FM001-X; Familie: OTHER1; Spannung: 230 V; Frequenz: 60 Hz; Leistung: 375 W

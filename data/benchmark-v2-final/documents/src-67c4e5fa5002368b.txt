@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 018; referencia: FM018-A; familia: FM018; tensión: 0,4 kV; frecuencia: 50 Hz; potencia: 0,125 kW

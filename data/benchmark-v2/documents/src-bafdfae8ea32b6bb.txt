@@ -1,0 +1,6 @@
+  Rated frequency = 50 Hz  
+  Rated voltage = 400 V  
+  Rated power = 7500 W  
+  MPN = FM021-A  
+  Manufacturer = Synthetic Motors 021  
+  Series = FM021  

@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 023; part number: FM023-A; family: FM023; voltage: 230 V; frequency: 60 Hz; power: 1500 W

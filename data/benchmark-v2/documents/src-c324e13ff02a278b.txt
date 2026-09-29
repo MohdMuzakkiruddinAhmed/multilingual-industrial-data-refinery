@@ -1,0 +1,6 @@
+  Nennspannung = 110 V  
+  Hersteller = Synthetic Motors 002  
+  Baureihe = FM002  
+  Artikelnummer = FM002-A  
+  Nennfrequenz = 50 Hz  
+  Nennleistung = 375 W  

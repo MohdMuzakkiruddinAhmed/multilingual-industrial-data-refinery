@@ -1,0 +1,865 @@
+[
+  {
+    "record_id": "product-01a9b6680cd914c1",
+    "state": "published",
+    "simulation": true,
+    "view": {
+      "market": "ar-SA",
+      "language": "ar",
+      "locale": "ar-SA",
+      "profile_version": "demo-market-v1",
+      "terminology_version": "motor-terms-v1",
+      "title": "محرك كهربائي",
+      "direction": "rtl",
+      "canonical_record_id": "product-01a9b6680cd914c1",
+      "canonical_sha256": "856f447ef734e94b3e35fd4915c01d66a13a5a1e789771f098e0e08cc7f2b79c",
+      "rows": [
+        {
+          "field": "manufacturer",
+          "label": "الشركة المصنعة",
+          "display": "Synthetic Motors 011",
+          "canonical_value": "Synthetic Motors 011",
+          "unit": null,
+          "evidence_ids": [
+            "src-38c6d04f79c18f54"
+          ]
+        },
+        {
+          "field": "part_number",
+          "label": "رقم الجزء",
+          "display": "FM011-A",
+          "canonical_value": "FM011-A",
+          "unit": null,
+          "evidence_ids": [
+            "src-38c6d04f79c18f54"
+          ]
+        },
+        {
+          "field": "family",
+          "label": "العائلة",
+          "display": "FM011",
+          "canonical_value": "FM011",
+          "unit": null,
+          "evidence_ids": [
+            "src-38c6d04f79c18f54"
+          ]
+        },
+        {
+          "field": "voltage",
+          "label": "الجهد",
+          "display": "230 V",
+          "canonical_value": "230",
+          "unit": "V",
+          "evidence_ids": [
+            "src-38c6d04f79c18f54"
+          ]
+        },
+        {
+          "field": "frequency",
+          "label": "التردد",
+          "display": "60 Hz",
+          "canonical_value": "60",
+          "unit": "Hz",
+          "evidence_ids": [
+            "src-38c6d04f79c18f54"
+          ]
+        },
+        {
+          "field": "power",
+          "label": "القدرة",
+          "display": "375 W",
+          "canonical_value": "375",
+          "unit": "W",
+          "evidence_ids": [
+            "src-38c6d04f79c18f54"
+          ]
+        }
+      ],
+      "missing_market_fields": [],
+      "state": "published"
+    },
+    "canonical_attributes": {
+      "manufacturer": {
+        "value": "Synthetic Motors 011",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-38c6d04f79c18f54",
+            "source_version": "1",
+            "source_sha256": "418d521129c1f9c74b408c218a7230e556edbb3e1a4a80ea6d8ef80cfb824aa7",
+            "location": {
+              "document": "src-38c6d04f79c18f54.txt",
+              "page": 1
+            },
+            "quote": "الشركة المصنعة: Synthetic Motors 011",
+            "start": 0,
+            "end": 36,
+            "original_value": "Synthetic Motors 011",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "part_number": {
+        "value": "FM011-A",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-38c6d04f79c18f54",
+            "source_version": "1",
+            "source_sha256": "418d521129c1f9c74b408c218a7230e556edbb3e1a4a80ea6d8ef80cfb824aa7",
+            "location": {
+              "document": "src-38c6d04f79c18f54.txt",
+              "page": 1
+            },
+            "quote": "رقم الجزء: FM011-A",
+            "start": 38,
+            "end": 56,
+            "original_value": "FM011-A",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "family": {
+        "value": "FM011",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-38c6d04f79c18f54",
+            "source_version": "1",
+            "source_sha256": "418d521129c1f9c74b408c218a7230e556edbb3e1a4a80ea6d8ef80cfb824aa7",
+            "location": {
+              "document": "src-38c6d04f79c18f54.txt",
+              "page": 1
+            },
+            "quote": "العائلة: FM011",
+            "start": 58,
+            "end": 72,
+            "original_value": "FM011",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "voltage": {
+        "value": "230",
+        "unit": "V",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-38c6d04f79c18f54",
+            "source_version": "1",
+            "source_sha256": "418d521129c1f9c74b408c218a7230e556edbb3e1a4a80ea6d8ef80cfb824aa7",
+            "location": {
+              "document": "src-38c6d04f79c18f54.txt",
+              "page": 1
+            },
+            "quote": "الجهد: 230 V",
+            "start": 74,
+            "end": 86,
+            "original_value": "230 V",
+            "rule": "decimal-exact:V->V:multiply-1"
+          }
+        ]
+      },
+      "frequency": {
+        "value": "60",
+        "unit": "Hz",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-38c6d04f79c18f54",
+            "source_version": "1",
+            "source_sha256": "418d521129c1f9c74b408c218a7230e556edbb3e1a4a80ea6d8ef80cfb824aa7",
+            "location": {
+              "document": "src-38c6d04f79c18f54.txt",
+              "page": 1
+            },
+            "quote": "التردد: 60 Hz",
+            "start": 88,
+            "end": 101,
+            "original_value": "60 Hz",
+            "rule": "decimal-exact:Hz->Hz:multiply-1"
+          }
+        ]
+      },
+      "power": {
+        "value": "375",
+        "unit": "W",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-38c6d04f79c18f54",
+            "source_version": "1",
+            "source_sha256": "418d521129c1f9c74b408c218a7230e556edbb3e1a4a80ea6d8ef80cfb824aa7",
+            "location": {
+              "document": "src-38c6d04f79c18f54.txt",
+              "page": 1
+            },
+            "quote": "القدرة: 375 W",
+            "start": 103,
+            "end": 116,
+            "original_value": "375 W",
+            "rule": "decimal-exact:W->W:multiply-1"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "record_id": "product-c61ffa3dfa3280ce",
+    "state": "published",
+    "simulation": true,
+    "view": {
+      "market": "ar-SA",
+      "language": "ar",
+      "locale": "ar-SA",
+      "profile_version": "demo-market-v1",
+      "terminology_version": "motor-terms-v1",
+      "title": "محرك كهربائي",
+      "direction": "rtl",
+      "canonical_record_id": "product-c61ffa3dfa3280ce",
+      "canonical_sha256": "336afbfcae7b6a7cbc0d9ccb9247a952d105ef3d39ccfabfc0808b3704fcf267",
+      "rows": [
+        {
+          "field": "manufacturer",
+          "label": "الشركة المصنعة",
+          "display": "Other Demo 12",
+          "canonical_value": "Other Demo 12",
+          "unit": null,
+          "evidence_ids": [
+            "src-604fadb07c9f0e46"
+          ]
+        },
+        {
+          "field": "part_number",
+          "label": "رقم الجزء",
+          "display": "FM012-X",
+          "canonical_value": "FM012-X",
+          "unit": null,
+          "evidence_ids": [
+            "src-604fadb07c9f0e46"
+          ]
+        },
+        {
+          "field": "family",
+          "label": "العائلة",
+          "display": "OTHER12",
+          "canonical_value": "OTHER12",
+          "unit": null,
+          "evidence_ids": [
+            "src-604fadb07c9f0e46"
+          ]
+        },
+        {
+          "field": "voltage",
+          "label": "الجهد",
+          "display": "230 V",
+          "canonical_value": "230",
+          "unit": "V",
+          "evidence_ids": [
+            "src-604fadb07c9f0e46"
+          ]
+        },
+        {
+          "field": "frequency",
+          "label": "التردد",
+          "display": "60 Hz",
+          "canonical_value": "60",
+          "unit": "Hz",
+          "evidence_ids": [
+            "src-604fadb07c9f0e46"
+          ]
+        },
+        {
+          "field": "power",
+          "label": "القدرة",
+          "display": "125 W",
+          "canonical_value": "125",
+          "unit": "W",
+          "evidence_ids": [
+            "src-604fadb07c9f0e46"
+          ]
+        }
+      ],
+      "missing_market_fields": [],
+      "state": "published"
+    },
+    "canonical_attributes": {
+      "manufacturer": {
+        "value": "Other Demo 12",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-604fadb07c9f0e46",
+            "source_version": "1",
+            "source_sha256": "5a166d1a05bd14a852b93f66aec0097f0f2534198dfa53f25e2fa95062921527",
+            "location": {
+              "document": "src-604fadb07c9f0e46.txt",
+              "page": 1
+            },
+            "quote": "الشركة المصنعة: Other Demo 12",
+            "start": 0,
+            "end": 29,
+            "original_value": "Other Demo 12",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "part_number": {
+        "value": "FM012-X",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-604fadb07c9f0e46",
+            "source_version": "1",
+            "source_sha256": "5a166d1a05bd14a852b93f66aec0097f0f2534198dfa53f25e2fa95062921527",
+            "location": {
+              "document": "src-604fadb07c9f0e46.txt",
+              "page": 1
+            },
+            "quote": "رقم الجزء: FM012-X",
+            "start": 31,
+            "end": 49,
+            "original_value": "FM012-X",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "family": {
+        "value": "OTHER12",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-604fadb07c9f0e46",
+            "source_version": "1",
+            "source_sha256": "5a166d1a05bd14a852b93f66aec0097f0f2534198dfa53f25e2fa95062921527",
+            "location": {
+              "document": "src-604fadb07c9f0e46.txt",
+              "page": 1
+            },
+            "quote": "العائلة: OTHER12",
+            "start": 51,
+            "end": 67,
+            "original_value": "OTHER12",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "voltage": {
+        "value": "230",
+        "unit": "V",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-604fadb07c9f0e46",
+            "source_version": "1",
+            "source_sha256": "5a166d1a05bd14a852b93f66aec0097f0f2534198dfa53f25e2fa95062921527",
+            "location": {
+              "document": "src-604fadb07c9f0e46.txt",
+              "page": 1
+            },
+            "quote": "الجهد: 230 V",
+            "start": 69,
+            "end": 81,
+            "original_value": "230 V",
+            "rule": "decimal-exact:V->V:multiply-1"
+          }
+        ]
+      },
+      "frequency": {
+        "value": "60",
+        "unit": "Hz",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-604fadb07c9f0e46",
+            "source_version": "1",
+            "source_sha256": "5a166d1a05bd14a852b93f66aec0097f0f2534198dfa53f25e2fa95062921527",
+            "location": {
+              "document": "src-604fadb07c9f0e46.txt",
+              "page": 1
+            },
+            "quote": "التردد: 60 Hz",
+            "start": 83,
+            "end": 96,
+            "original_value": "60 Hz",
+            "rule": "decimal-exact:Hz->Hz:multiply-1"
+          }
+        ]
+      },
+      "power": {
+        "value": "125",
+        "unit": "W",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-604fadb07c9f0e46",
+            "source_version": "1",
+            "source_sha256": "5a166d1a05bd14a852b93f66aec0097f0f2534198dfa53f25e2fa95062921527",
+            "location": {
+              "document": "src-604fadb07c9f0e46.txt",
+              "page": 1
+            },
+            "quote": "القدرة: 125 W",
+            "start": 98,
+            "end": 111,
+            "original_value": "125 W",
+            "rule": "decimal-exact:W->W:multiply-1"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "record_id": "product-740b996116f0f98c",
+    "state": "published",
+    "simulation": true,
+    "view": {
+      "market": "ar-SA",
+      "language": "ar",
+      "locale": "ar-SA",
+      "profile_version": "demo-market-v1",
+      "terminology_version": "motor-terms-v1",
+      "title": "محرك كهربائي",
+      "direction": "rtl",
+      "canonical_record_id": "product-740b996116f0f98c",
+      "canonical_sha256": "108bac465b55da3b422a4ee9dea8e2112c142580c2ed19fe374a2611ea97b54b",
+      "rows": [
+        {
+          "field": "manufacturer",
+          "label": "الشركة المصنعة",
+          "display": "Synthetic Motors 001",
+          "canonical_value": "Synthetic Motors 001",
+          "unit": null,
+          "evidence_ids": [
+            "src-9ed4be3a23437e1c"
+          ]
+        },
+        {
+          "field": "voltage",
+          "label": "الجهد",
+          "display": "230 V",
+          "canonical_value": "230",
+          "unit": "V",
+          "evidence_ids": [
+            "src-9ed4be3a23437e1c"
+          ]
+        },
+        {
+          "field": "family",
+          "label": "العائلة",
+          "display": "FM001",
+          "canonical_value": "FM001",
+          "unit": null,
+          "evidence_ids": [
+            "src-9ed4be3a23437e1c"
+          ]
+        },
+        {
+          "field": "part_number",
+          "label": "رقم الجزء",
+          "display": "FM001-A",
+          "canonical_value": "FM001-A",
+          "unit": null,
+          "evidence_ids": [
+            "src-9ed4be3a23437e1c"
+          ]
+        },
+        {
+          "field": "frequency",
+          "label": "التردد",
+          "display": "60 Hz",
+          "canonical_value": "60",
+          "unit": "Hz",
+          "evidence_ids": [
+            "src-9ed4be3a23437e1c"
+          ]
+        },
+        {
+          "field": "power",
+          "label": "القدرة",
+          "display": "375 W",
+          "canonical_value": "375",
+          "unit": "W",
+          "evidence_ids": [
+            "src-9ed4be3a23437e1c"
+          ]
+        }
+      ],
+      "missing_market_fields": [],
+      "state": "published"
+    },
+    "canonical_attributes": {
+      "manufacturer": {
+        "value": "Synthetic Motors 001",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-9ed4be3a23437e1c",
+            "source_version": "1",
+            "source_sha256": "15f3ade5921f8002931ad2e622867f222be633d94fad77df38621ad79bb79ace",
+            "location": {
+              "document": "src-9ed4be3a23437e1c.md",
+              "page": 1
+            },
+            "quote": "| الشركة المصنعة | Synthetic Motors 001 |",
+            "start": 0,
+            "end": 41,
+            "original_value": "Synthetic Motors 001",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "voltage": {
+        "value": "230",
+        "unit": "V",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-9ed4be3a23437e1c",
+            "source_version": "1",
+            "source_sha256": "15f3ade5921f8002931ad2e622867f222be633d94fad77df38621ad79bb79ace",
+            "location": {
+              "document": "src-9ed4be3a23437e1c.md",
+              "page": 1
+            },
+            "quote": "| الجهد | 230 V |",
+            "start": 42,
+            "end": 59,
+            "original_value": "230 V",
+            "rule": "decimal-exact:V->V:multiply-1"
+          }
+        ]
+      },
+      "family": {
+        "value": "FM001",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-9ed4be3a23437e1c",
+            "source_version": "1",
+            "source_sha256": "15f3ade5921f8002931ad2e622867f222be633d94fad77df38621ad79bb79ace",
+            "location": {
+              "document": "src-9ed4be3a23437e1c.md",
+              "page": 1
+            },
+            "quote": "| العائلة | FM001 |",
+            "start": 60,
+            "end": 79,
+            "original_value": "FM001",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "part_number": {
+        "value": "FM001-A",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-9ed4be3a23437e1c",
+            "source_version": "1",
+            "source_sha256": "15f3ade5921f8002931ad2e622867f222be633d94fad77df38621ad79bb79ace",
+            "location": {
+              "document": "src-9ed4be3a23437e1c.md",
+              "page": 1
+            },
+            "quote": "| رقم الجزء | FM001-A |",
+            "start": 80,
+            "end": 103,
+            "original_value": "FM001-A",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "frequency": {
+        "value": "60",
+        "unit": "Hz",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-9ed4be3a23437e1c",
+            "source_version": "1",
+            "source_sha256": "15f3ade5921f8002931ad2e622867f222be633d94fad77df38621ad79bb79ace",
+            "location": {
+              "document": "src-9ed4be3a23437e1c.md",
+              "page": 1
+            },
+            "quote": "| التردد | 60 Hz |",
+            "start": 104,
+            "end": 122,
+            "original_value": "60 Hz",
+            "rule": "decimal-exact:Hz->Hz:multiply-1"
+          }
+        ]
+      },
+      "power": {
+        "value": "375",
+        "unit": "W",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-9ed4be3a23437e1c",
+            "source_version": "1",
+            "source_sha256": "15f3ade5921f8002931ad2e622867f222be633d94fad77df38621ad79bb79ace",
+            "location": {
+              "document": "src-9ed4be3a23437e1c.md",
+              "page": 1
+            },
+            "quote": "| القدرة | 375 W |",
+            "start": 123,
+            "end": 141,
+            "original_value": "375 W",
+            "rule": "decimal-exact:W->W:multiply-1"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "record_id": "product-95590ad43f73503e",
+    "state": "published",
+    "simulation": true,
+    "view": {
+      "market": "es-MX",
+      "language": "es",
+      "locale": "es-MX",
+      "profile_version": "demo-market-v1",
+      "terminology_version": "motor-terms-v1",
+      "title": "Motor eléctrico",
+      "direction": "ltr",
+      "canonical_record_id": "product-95590ad43f73503e",
+      "canonical_sha256": "2c6d5c56116d5452c78546278b3b04d5b793223905ede28513f913810b072f82",
+      "rows": [
+        {
+          "field": "manufacturer",
+          "label": "fabricante",
+          "display": "Synthetic Motors 004",
+          "canonical_value": "Synthetic Motors 004",
+          "unit": null,
+          "evidence_ids": [
+            "src-123889cea5ab7fc7"
+          ]
+        },
+        {
+          "field": "part_number",
+          "label": "referencia",
+          "display": "FM004-A",
+          "canonical_value": "FM004-A",
+          "unit": null,
+          "evidence_ids": [
+            "src-123889cea5ab7fc7"
+          ]
+        },
+        {
+          "field": "family",
+          "label": "familia",
+          "display": "FM004",
+          "canonical_value": "FM004",
+          "unit": null,
+          "evidence_ids": [
+            "src-123889cea5ab7fc7"
+          ]
+        },
+        {
+          "field": "voltage",
+          "label": "tensión",
+          "display": "460 V",
+          "canonical_value": "460",
+          "unit": "V",
+          "evidence_ids": [
+            "src-123889cea5ab7fc7"
+          ]
+        },
+        {
+          "field": "frequency",
+          "label": "frecuencia",
+          "display": "50 Hz",
+          "canonical_value": "50",
+          "unit": "Hz",
+          "evidence_ids": [
+            "src-123889cea5ab7fc7"
+          ]
+        },
+        {
+          "field": "power",
+          "label": "potencia",
+          "display": "375 W",
+          "canonical_value": "375",
+          "unit": "W",
+          "evidence_ids": [
+            "src-123889cea5ab7fc7"
+          ]
+        },
+        {
+          "field": "certification",
+          "label": "certificación",
+          "display": "TEST-CERT-MX-FM004",
+          "canonical_value": "TEST-CERT-MX-FM004",
+          "unit": null,
+          "evidence_ids": [
+            "src-123889cea5ab7fc7"
+          ]
+        }
+      ],
+      "missing_market_fields": [],
+      "state": "published"
+    },
+    "canonical_attributes": {
+      "manufacturer": {
+        "value": "Synthetic Motors 004",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-123889cea5ab7fc7",
+            "source_version": "1",
+            "source_sha256": "1300900e09b5e00a8d517d6853d3117dd779693d43f043f2d62043c93d05d3a6",
+            "location": {
+              "document": "src-123889cea5ab7fc7.txt",
+              "page": 1
+            },
+            "quote": "الشركة المصنعة: Synthetic Motors 004",
+            "start": 0,
+            "end": 36,
+            "original_value": "Synthetic Motors 004",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "part_number": {
+        "value": "FM004-A",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-123889cea5ab7fc7",
+            "source_version": "1",
+            "source_sha256": "1300900e09b5e00a8d517d6853d3117dd779693d43f043f2d62043c93d05d3a6",
+            "location": {
+              "document": "src-123889cea5ab7fc7.txt",
+              "page": 1
+            },
+            "quote": "رقم الجزء: FM004-A",
+            "start": 38,
+            "end": 56,
+            "original_value": "FM004-A",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "family": {
+        "value": "FM004",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-123889cea5ab7fc7",
+            "source_version": "1",
+            "source_sha256": "1300900e09b5e00a8d517d6853d3117dd779693d43f043f2d62043c93d05d3a6",
+            "location": {
+              "document": "src-123889cea5ab7fc7.txt",
+              "page": 1
+            },
+            "quote": "العائلة: FM004",
+            "start": 58,
+            "end": 72,
+            "original_value": "FM004",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      },
+      "voltage": {
+        "value": "460",
+        "unit": "V",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-123889cea5ab7fc7",
+            "source_version": "1",
+            "source_sha256": "1300900e09b5e00a8d517d6853d3117dd779693d43f043f2d62043c93d05d3a6",
+            "location": {
+              "document": "src-123889cea5ab7fc7.txt",
+              "page": 1
+            },
+            "quote": "الجهد: 460 V",
+            "start": 74,
+            "end": 86,
+            "original_value": "460 V",
+            "rule": "decimal-exact:V->V:multiply-1"
+          }
+        ]
+      },
+      "frequency": {
+        "value": "50",
+        "unit": "Hz",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-123889cea5ab7fc7",
+            "source_version": "1",
+            "source_sha256": "1300900e09b5e00a8d517d6853d3117dd779693d43f043f2d62043c93d05d3a6",
+            "location": {
+              "document": "src-123889cea5ab7fc7.txt",
+              "page": 1
+            },
+            "quote": "التردد: 50 Hz",
+            "start": 88,
+            "end": 101,
+            "original_value": "50 Hz",
+            "rule": "decimal-exact:Hz->Hz:multiply-1"
+          }
+        ]
+      },
+      "power": {
+        "value": "375",
+        "unit": "W",
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-123889cea5ab7fc7",
+            "source_version": "1",
+            "source_sha256": "1300900e09b5e00a8d517d6853d3117dd779693d43f043f2d62043c93d05d3a6",
+            "location": {
+              "document": "src-123889cea5ab7fc7.txt",
+              "page": 1
+            },
+            "quote": "القدرة: 375 W",
+            "start": 103,
+            "end": 116,
+            "original_value": "375 W",
+            "rule": "decimal-exact:W->W:multiply-1"
+          }
+        ]
+      },
+      "certification": {
+        "value": "TEST-CERT-MX-FM004",
+        "unit": null,
+        "status": "explicit",
+        "evidence": [
+          {
+            "source_id": "src-123889cea5ab7fc7",
+            "source_version": "1",
+            "source_sha256": "1300900e09b5e00a8d517d6853d3117dd779693d43f043f2d62043c93d05d3a6",
+            "location": {
+              "document": "src-123889cea5ab7fc7.txt",
+              "page": 1
+            },
+            "quote": "الشهادة: TEST-CERT-MX-FM004",
+            "start": 118,
+            "end": 145,
+            "original_value": "TEST-CERT-MX-FM004",
+            "rule": "literal-identifier-v1"
+          }
+        ]
+      }
+    }
+  }
+]

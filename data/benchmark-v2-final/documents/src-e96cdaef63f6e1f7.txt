@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 014; referencia: FM014-B; familia: FM014; tensión: 470 V; frecuencia: 50 Hz; potencia: 7500 W

@@ -1,0 +1,1 @@
+El motor de la serie FM000 de Synthetic Motors 000 tiene la referencia FM000-A. Funciona a 460 V y 50 Hz, con una potencia de 375 W.

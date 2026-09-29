@@ -1,0 +1,6 @@
+  Rated power = 2200 W  
+  MPN = FM010-A  
+  Rated voltage = 208 V  
+  Manufacturer = Synthetic Motors 010  
+  Series = FM010  
+  Rated frequency = 60 Hz  

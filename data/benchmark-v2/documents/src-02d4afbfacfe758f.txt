@@ -1,0 +1,6 @@
+  Frecuencia nominal = 50 Hz  
+  Fabricante = Synthetic Motors 002  
+  Tensión nominal = 110 V  
+  Potencia nominal = 375 W  
+  Serie = FM002  
+  Número de pieza = FM002-A  

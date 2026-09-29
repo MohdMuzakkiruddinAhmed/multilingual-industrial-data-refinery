@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 009; referencia: FM009-A; familia: FM009; tensión: 0,208 kV; frecuencia: 60 Hz; potencia: 0,75 kW

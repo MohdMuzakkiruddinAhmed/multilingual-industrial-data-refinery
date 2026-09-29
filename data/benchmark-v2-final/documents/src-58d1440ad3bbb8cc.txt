@@ -1,0 +1,1 @@
+fabricante: Other Demo 16; referencia: FM016-X; familia: OTHER16; tensión: 230 V; frecuencia: 50 Hz; potencia: 1500 W

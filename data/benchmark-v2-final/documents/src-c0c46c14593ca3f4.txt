@@ -1,0 +1,1 @@
+fabricante: Other Demo 18; referencia: FM018-X; familia: OTHER18; tensión: 400 V; frecuencia: 50 Hz; potencia: 125 W

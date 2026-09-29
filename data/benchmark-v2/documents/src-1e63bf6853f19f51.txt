@@ -1,0 +1,6 @@
+  Rated voltage = 208 V  
+  Series = FM006  
+  Rated power = 11000 W  
+  Rated frequency = 60 Hz  
+  MPN = FM006-A  
+  Manufacturer = Synthetic Motors 006  

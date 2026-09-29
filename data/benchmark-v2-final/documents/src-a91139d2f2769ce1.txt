@@ -1,0 +1,6 @@
+  Serie = FM009  
+  Potencia nominal = 750 W  
+  Número de pieza = FM009-A  
+  Fabricante = Synthetic Motors 009  
+  Tensión nominal = 208 V  
+  Frecuencia nominal = 60 Hz  

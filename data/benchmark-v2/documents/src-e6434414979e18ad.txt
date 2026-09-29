@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 011; referencia: FM011-A; familia: FM011; tensión: 240 V; frecuencia: 60 Hz; potencia: 375 W

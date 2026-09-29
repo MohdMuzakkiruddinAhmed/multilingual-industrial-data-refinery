@@ -1,0 +1,6 @@
+  Manufacturer = Synthetic Motors 023  
+  Rated frequency = 60 Hz  
+  MPN = FM023-A  
+  Rated voltage = 230 V  
+  Rated power = 1500 W  
+  Series = FM023  

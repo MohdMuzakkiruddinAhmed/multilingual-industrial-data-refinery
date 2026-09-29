@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 013; referencia: FM013-A; familia: FM013; tensión: 208 V; frecuencia: 50 Hz

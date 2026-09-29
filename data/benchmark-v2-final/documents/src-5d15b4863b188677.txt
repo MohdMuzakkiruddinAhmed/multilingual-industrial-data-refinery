@@ -1,0 +1,6 @@
+  Baureihe = FM003  
+  Nennleistung = 750 W  
+  Artikelnummer = FM003-A  
+  Hersteller = Synthetic Motors 003  
+  Nennfrequenz = 60 Hz  
+  Nennspannung = 460 V  

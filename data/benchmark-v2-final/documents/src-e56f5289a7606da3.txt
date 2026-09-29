@@ -1,0 +1,1 @@
+fabricante: Other Demo 4; referencia: FM004-X; familia: OTHER4; tensión: 460 V; frecuencia: 50 Hz; potencia: 375 W

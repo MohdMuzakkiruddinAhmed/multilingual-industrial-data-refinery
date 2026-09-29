@@ -1,0 +1,6 @@
+  Nennfrequenz = 50 Hz  
+  Baureihe = FM000  
+  Nennleistung = 375 W  
+  Nennspannung = 460 V  
+  Artikelnummer = FM000-A  
+  Hersteller = Synthetic Motors 000  

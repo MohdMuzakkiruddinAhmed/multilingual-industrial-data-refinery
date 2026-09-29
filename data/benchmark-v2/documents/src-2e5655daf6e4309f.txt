@@ -1,0 +1,1 @@
+manufacturer: Synthetic Motors 013; part number: FM013-A; family: FM013; voltage: 0.208 kV; frequency: 50 Hz; power: 0.375 kW

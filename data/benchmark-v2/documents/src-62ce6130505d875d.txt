@@ -1,0 +1,1 @@
+fabricante: Other Demo 8; referencia: FM008-X; familia: OTHER8; tensión: 400 V; frecuencia: 60 Hz; potencia: 11000 W

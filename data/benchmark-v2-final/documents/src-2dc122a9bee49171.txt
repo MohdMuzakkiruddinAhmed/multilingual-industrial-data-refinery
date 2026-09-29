@@ -1,0 +1,1 @@
+manufacturer: Other Demo 16; part number: FM016-X; family: OTHER16; voltage: 230 V; frequency: 50 Hz; power: 1500 W

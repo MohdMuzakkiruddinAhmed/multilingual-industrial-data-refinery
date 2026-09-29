@@ -1,0 +1,6 @@
+  Potencia nominal = 7500 W  
+  Tensión nominal = 400 V  
+  Serie = FM021  
+  Frecuencia nominal = 50 Hz  
+  Número de pieza = FM021-A  
+  Fabricante = Synthetic Motors 021  

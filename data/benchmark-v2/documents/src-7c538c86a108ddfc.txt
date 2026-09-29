@@ -1,0 +1,6 @@
+  Hersteller = Synthetic Motors 019  
+  Nennfrequenz = 60 Hz  
+  Baureihe = FM019  
+  Artikelnummer = FM019-A  
+  Nennleistung = 375 W  
+  Nennspannung = 208 V  

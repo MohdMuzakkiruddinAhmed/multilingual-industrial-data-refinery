@@ -1,0 +1,6 @@
+  Artikelnummer = FM021-A  
+  Hersteller = Synthetic Motors 021  
+  Baureihe = FM021  
+  Nennspannung = 400 V  
+  Nennfrequenz = 50 Hz  
+  Nennleistung = 7500 W  

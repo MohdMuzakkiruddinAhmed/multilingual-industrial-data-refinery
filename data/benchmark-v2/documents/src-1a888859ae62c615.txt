@@ -1,0 +1,6 @@
+  Rated voltage = 230 V  
+  MPN = FM016-A  
+  Series = FM016  
+  Manufacturer = Synthetic Motors 016  
+  Rated power = 1500 W  
+  Rated frequency = 50 Hz  

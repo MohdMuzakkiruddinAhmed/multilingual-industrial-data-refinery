@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "industrial-data-refinery"
+version = "0.1.0"
+description = "Evidence-controlled multilingual industrial catalog proof of concept"
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = ["multilingual", "data-provenance", "industrial-data", "catalog", "nvidia-nim"]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/MohdMuzakkiruddinAhmed/multilingual-industrial-data-refinery"
+Documentation = "https://github.com/MohdMuzakkiruddinAhmed/multilingual-industrial-data-refinery#documentation"
+Issues = "https://github.com/MohdMuzakkiruddinAhmed/multilingual-industrial-data-refinery/issues"
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.8,<4"]
+
+[project.scripts]
+refinery = "refinery.cli:main"
+refinery-experiments = "refinery.experiments:main"
+
+[tool.setuptools.packages.find]
+include = ["refinery*"]
+
+[tool.setuptools.package-data]
+refinery = ["dashboard.html"]

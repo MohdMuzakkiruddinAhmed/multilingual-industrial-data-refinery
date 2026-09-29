@@ -1,0 +1,6 @@
+  Nennfrequenz = 50 Hz  
+  Nennleistung = 7500 W  
+  Nennspannung = 460 V  
+  Hersteller = Synthetic Motors 014  
+  Baureihe = FM014  
+  Artikelnummer = FM014-A  

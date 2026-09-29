@@ -1,0 +1,6 @@
+  Nennspannung = 400 V  
+  Hersteller = Synthetic Motors 008  
+  Nennfrequenz = 60 Hz  
+  Nennleistung = 11000 W  
+  Artikelnummer = FM008-A  
+  Baureihe = FM008  

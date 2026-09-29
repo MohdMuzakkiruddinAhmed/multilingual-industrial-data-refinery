@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.png binary
+# Preserve the exact bytes of frozen evidence and experiment snapshots.
+data/** -text
+outputs/** -text
+
+# Frozen implementation bytes match historical experiment manifests.
+refinery/** -text
+tests/** -text
+# Keep generated reports out of GitHub language statistics.
+outputs/** linguist-generated=true
+data/** linguist-vendored=true

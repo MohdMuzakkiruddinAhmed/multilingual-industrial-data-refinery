@@ -1,0 +1,1 @@
+fabricante: Other Demo 12; referencia: FM012-X; familia: OTHER12; tensión: 230 V; frecuencia: 60 Hz; potencia: 125 W

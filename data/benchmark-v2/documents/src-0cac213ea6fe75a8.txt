@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 012; referencia: FM012-A; familia: FM012; tensión: 230 V; frecuencia: 60 Hz

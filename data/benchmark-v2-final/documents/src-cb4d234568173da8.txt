@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 020; referencia: FM020-A; familia: FM020; tensión: 208 V; frecuencia: 60 Hz; potencia: 7500 W; certificación: TEST-CERT-MX-FM020

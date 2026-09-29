@@ -1,0 +1,6 @@
+  Nennspannung = 208 V  
+  Nennleistung = 11000 W  
+  Baureihe = FM006  
+  Artikelnummer = FM006-A  
+  Hersteller = Synthetic Motors 006  
+  Nennfrequenz = 60 Hz  

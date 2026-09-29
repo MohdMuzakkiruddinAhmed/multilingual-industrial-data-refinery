@@ -1,0 +1,6 @@
+  Nennspannung = 230 V  
+  Hersteller = Synthetic Motors 012  
+  Artikelnummer = FM012-A  
+  Baureihe = FM012  
+  Nennfrequenz = 60 Hz  
+  Nennleistung = 125 W  

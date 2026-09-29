@@ -1,0 +1,6 @@
+  Número de pieza = FM011-A  
+  Fabricante = Synthetic Motors 011  
+  Tensión nominal = 230 V  
+  Potencia nominal = 375 W  
+  Serie = FM011  
+  Frecuencia nominal = 60 Hz  

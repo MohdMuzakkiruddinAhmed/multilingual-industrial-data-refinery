@@ -1,0 +1,6 @@
+  Potencia nominal = 5500 W  
+  Número de pieza = FM005-A  
+  Frecuencia nominal = 50 Hz  
+  Fabricante = Synthetic Motors 005  
+  Serie = FM005  
+  Tensión nominal = 208 V  

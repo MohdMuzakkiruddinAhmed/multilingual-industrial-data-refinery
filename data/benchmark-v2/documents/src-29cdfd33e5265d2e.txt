@@ -1,0 +1,1 @@
+fabricante: Synthetic Motors 016; referencia: FM016-A; familia: FM016; tensión: 230 V; frecuencia: 50 Hz; potencia: 1500 W; certificación: TEST-CERT-MX-FM016

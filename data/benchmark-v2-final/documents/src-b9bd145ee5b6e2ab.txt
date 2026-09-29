@@ -1,0 +1,6 @@
+  Frecuencia nominal = 50 Hz  
+  Número de pieza = FM000-A  
+  Serie = FM000  
+  Potencia nominal = 375 W  
+  Tensión nominal = 460 V  
+  Fabricante = Synthetic Motors 000  

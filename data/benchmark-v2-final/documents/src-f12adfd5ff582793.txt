@@ -1,0 +1,6 @@
+  Baureihe = FM016  
+  Hersteller = Synthetic Motors 016  
+  Nennleistung = 1500 W  
+  Nennfrequenz = 50 Hz  
+  Nennspannung = 230 V  
+  Artikelnummer = FM016-A  

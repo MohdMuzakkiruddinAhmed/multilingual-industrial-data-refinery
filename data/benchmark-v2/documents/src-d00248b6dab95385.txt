@@ -1,0 +1,6 @@
+  Número de pieza = FM016-A  
+  Fabricante = Synthetic Motors 016  
+  Tensión nominal = 230 V  
+  Potencia nominal = 1500 W  
+  Serie = FM016  
+  Frecuencia nominal = 50 Hz  

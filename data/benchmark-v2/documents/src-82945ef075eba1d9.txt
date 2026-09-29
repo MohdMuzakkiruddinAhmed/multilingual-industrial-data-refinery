@@ -1,0 +1,1 @@
+El motor de la serie FM003 de Synthetic Motors 003 tiene la referencia FM003-A. Funciona a 460 V y 60 Hz, con una potencia de 750 W.

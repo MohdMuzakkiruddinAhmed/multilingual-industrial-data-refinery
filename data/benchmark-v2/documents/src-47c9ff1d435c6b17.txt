@@ -1,0 +1,6 @@
+  MPN = FM014-A  
+  Manufacturer = Synthetic Motors 014  
+  Rated frequency = 50 Hz  
+  Series = FM014  
+  Rated power = 7500 W  
+  Rated voltage = 460 V  

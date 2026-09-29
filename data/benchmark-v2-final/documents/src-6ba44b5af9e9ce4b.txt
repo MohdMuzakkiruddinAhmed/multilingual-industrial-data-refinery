@@ -1,0 +1,1 @@
+El motor de la serie FM004 de Synthetic Motors 004 tiene la referencia FM004-A. Funciona a 460 V y 50 Hz, con una potencia de 375 W.

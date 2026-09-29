@@ -1,0 +1,6 @@
+  Serie = FM008  
+  Potencia nominal = 11000 W  
+  Frecuencia nominal = 60 Hz  
+  Fabricante = Synthetic Motors 008  
+  Tensión nominal = 400 V  
+  Número de pieza = FM008-A  
